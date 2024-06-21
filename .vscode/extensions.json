@@ -1,0 +1,17 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "dotenv.dotenv-vscode",
+    "eamodio.gitlens",
+    "editorconfig.editorconfig",
+    "edwinhuish.better-comments-next",
+    "esbenp.prettier-vscode",
+    "redhat.vscode-yaml",
+    "streetsidesoftware.code-spell-checker",
+    "streetsidesoftware.code-spell-checker-dutch",
+    "stylelint.vscode-stylelint",
+    "usernamehw.errorlens",
+    "vue.volar"
+  ],
+  "unwantedRecommendations": ["octref.vetur"]
+}
