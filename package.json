@@ -1,4 +1,12 @@
 {
+  "homepage": "https://mtdvlpr.github.io/",
+  "bugs": "https://github.com/mtdvlpr/portfolio-vitepress/issues",
+  "license": "MIT",
+  "author": "Manoah Tervoort",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mtdvlpr/portfolio-vitepress.git"
+  },
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
@@ -10,21 +18,21 @@
   },
   "engines": {
     "node": "^20.14.0",
-    "yarn": "^4.0.2"
+    "yarn": "^4.5.3"
   },
-  "packageManager": "yarn@4.3.0",
+  "packageManager": "yarn@4.5.3",
   "devDependencies": {
-    "@types/node": "^20.14.2",
+    "@types/node": "^20.17.10",
     "@vue/eslint-config-prettier": "^9.0.0",
     "@vue/eslint-config-typescript": "^13.0.0",
-    "eslint": "^8.57.0",
+    "eslint": "^8.57.1",
     "eslint-plugin-markdown": "^4.0.1",
-    "eslint-plugin-prettier": "^5.1.3",
-    "eslint-plugin-vue": "^9.26.0",
-    "lint-staged": "^15.2.7",
-    "prettier": "^3.3.2",
-    "typescript": "^5.4.5",
-    "vitepress": "^1.2.3",
-    "vue-tsc": "^2.0.21"
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-vue": "^9.32.0",
+    "lint-staged": "^15.2.11",
+    "prettier": "^3.4.2",
+    "typescript": "~5.5.4",
+    "vitepress": "^1.5.0",
+    "vue-tsc": "^2.1.10"
   }
 }

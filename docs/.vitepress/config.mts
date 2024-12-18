@@ -5,10 +5,17 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   srcDir: './src',
+  rewrites: { 'en/:rest*': ':rest*' },
   title: "Manoah's Portfolio",
   description:
     'My developer portfolio, showcasing some of my work and projects.',
   lang: 'en',
+  head: [
+    ['meta', { content: 'light dark', name: 'color-scheme' }],
+    ['meta', { content: '#3075F2', name: 'theme-color' }],
+    ['meta', { content: 'yes', name: 'mobile-web-app-capable' }],
+    ['meta', { content: 'yes', name: 'apple-mobile-web-app-capable' }]
+  ],
   locales: {
     root: { label: 'English', lang: 'en' },
     nl: {
