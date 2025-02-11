@@ -1,19 +1,19 @@
 ---
 layout: home
 hero:
-  name: Hi! I'm Manoah👋
-  text: A full-stack developer
+  name: Hi! Ik ben Manoah👋
+  text: Een full-stack developer
   tagline: null
   image:
     src: /logo.jpg
-    alt: Manoah's profile picture
+    alt: Manoah's profielfoto
   actions:
     - theme: brand
-      text: My portfolio
-      link: /portfolio
+      text: Mijn portfolio
+      link: /nl/portfolio
     - theme: alt
-      text: About me
-      link: /about
+      text: Over mij
+      link: /nl/about
 features:
   - icon: ⚡️
     title: Front-end stacks

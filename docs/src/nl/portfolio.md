@@ -1,8 +1,8 @@
 ---
-title: My portfolio
-description: Showcase of my projects.
+title: Mijn portfolio
+description: Mijn projecten.
 ---
 
-# My portfolio
+# Mijn portfolio
 
-Soon.
+Binnenkort.
