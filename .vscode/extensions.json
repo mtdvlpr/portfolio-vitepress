@@ -11,7 +11,8 @@
     "streetsidesoftware.code-spell-checker-dutch",
     "stylelint.vscode-stylelint",
     "usernamehw.errorlens",
-    "vue.volar"
+    "vue.volar",
+    "yoavbls.pretty-ts-errors"
   ],
   "unwantedRecommendations": ["octref.vetur"]
 }

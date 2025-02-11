@@ -3,10 +3,10 @@ layout: home
 
 hero:
   name: Hi! I'm Manoah👋
-  text: A Full-stack developer
-  tagline: 
+  text: A full-stack developer
+  tagline:
   image:
-    src: https://avatars.githubusercontent.com/u/46671786
+    src: /logo.jpg
     alt: Manoah's profile picture
   actions:
     - theme: brand
@@ -18,11 +18,11 @@ hero:
 
 features:
   - icon: ⚡️
-    title: Front-End stacks
-    details: Vue/Nuxt, Svelte(Kit)...
+    title: Front-end stacks
+    details: Vue/Nuxt, Svelte(Kit), TypeScript...
   - icon: 🛠️
-    title: Back-End stacks
-    details: Node.js, Python, SQL, PHP...
+    title: Back-end stacks
+    details: Node.js, Python/FastAPI, PHP/Laravel...
   - icon: 🎨
     title: UI / UX
     details: Figma, Adobe XD...

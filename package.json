@@ -1,8 +1,10 @@
 {
-  "homepage": "https://mtdvlpr.github.io/",
+  "homepage": "https://mtdvlpr.github.io/portfolio-vitepress",
   "bugs": "https://github.com/mtdvlpr/portfolio-vitepress/issues",
   "license": "MIT",
+  "version": "1.0.0",
   "author": "Manoah Tervoort",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "https://github.com/mtdvlpr/portfolio-vitepress.git"
@@ -11,10 +13,12 @@
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
     "preview": "vitepress preview docs",
-    "lint:js": "eslint . --ext \".vue,.js,.ts,.mts\" --fix --ignore-path .gitignore",
-    "lint:prettier": "prettier --check .",
-    "lint": "yarn lint:js && yarn lint:prettier",
-    "lint:fix": "yarn lint:prettier --write && yarn lint:js --fix"
+    "lint:js": "eslint -c ./eslint.config.js './**/*.{js,ts,cjs,mjs,mts,vue,md}'",
+    "lint:prettier": "prettier \"**/*\" --ignore-unknown --check",
+    "lint:types": "vue-tsc --noEmit -p tsconfig.json",
+    "lint": "yarn lint:js && yarn lint:prettier && yarn lint:types",
+    "lint:fix": "yarn lint:prettier --write && yarn lint:js --fix",
+    "test": "vitest --project docs"
   },
   "engines": {
     "node": "^20.14.0",
@@ -22,17 +26,24 @@
   },
   "packageManager": "yarn@4.5.3",
   "devDependencies": {
-    "@types/node": "^20.17.10",
-    "@vue/eslint-config-prettier": "^9.0.0",
-    "@vue/eslint-config-typescript": "^13.0.0",
-    "eslint": "^8.57.1",
-    "eslint-plugin-markdown": "^4.0.1",
-    "eslint-plugin-prettier": "^5.2.1",
+    "@eslint/markdown": "^6.2.2",
+    "@types/fs-extra": "^11",
+    "@types/node": "^20.17.17",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/eslint-config-prettier": "^10.2.0",
+    "@vue/eslint-config-typescript": "^14.4.0",
+    "eslint": "^9.20.0",
+    "eslint-plugin-perfectionist": "^4.8.0",
     "eslint-plugin-vue": "^9.32.0",
-    "lint-staged": "^15.2.11",
-    "prettier": "^3.4.2",
-    "typescript": "~5.5.4",
-    "vitepress": "^1.5.0",
-    "vue-tsc": "^2.1.10"
+    "fs-extra": "^11.3.0",
+    "globals": "^15.14.0",
+    "lint-staged": "^15.4.3",
+    "msw": "^2.7.0",
+    "prettier": "^3.5.0",
+    "typescript": "~5.7.3",
+    "upath": "^2.0.1",
+    "vitepress": "^1.6.3",
+    "vitest": "^3.0.5",
+    "vue-tsc": "^2.2.0"
   }
 }
