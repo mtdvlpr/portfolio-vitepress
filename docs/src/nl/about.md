@@ -1,17 +1,17 @@
 ---
-title: About me
-description: Some information about me.
+title: Over mij
+description: Wat informatie over mij.
 ---
 
 <script setup>
   import { data } from './../../data/about.data.mts'
 </script>
 
-# About me
+# Over mij
 
-Hi! I'm an enthusiastic software developer who loves to learn new things. I'm passionate about web development and technology in general and I'm always looking for new challenges.
+Hi! Ik ben een enthousiaste softwareontwikkelaar die graag nieuwe dingen leert. Ik ben gepassioneerd over webontwikkeling en technologie in het algemeen en ik ben altijd op zoek naar nieuwe uitdagingen.
 
-## Languages
+## Talen
 
 <span v-for="(name, i) in data.languages">{{name}}{{i < data.languages.length - 1 ? ' &bull; ' : ''}}</span>
 
