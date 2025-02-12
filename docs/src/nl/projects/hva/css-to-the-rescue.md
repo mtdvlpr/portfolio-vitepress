@@ -23,4 +23,4 @@ For this course, I had to create a cool, interactive website using only CSS. I h
 For the team assignment, I had to work together with a team to experiment with new(ish) CSS features related to colors and present the results to our classmates.
 
 - [See the code](https://github.com/mtdvlpr/CSSttR-team-assignment)
-- [See the result](https://mtdvlpr.github.io/CSSttR-team-assignment/)
+- [See the result](https://mtdvlpr.github.io/CSSttR-team-assignment/manoah.html)
