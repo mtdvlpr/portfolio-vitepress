@@ -92,7 +92,7 @@ export default defineConfig({
     ],
 
     // Twitter meta tags
-    ['meta', { content: 'app', name: 'twitter:card' }],
+    ['meta', { content: 'summary_large_image', name: 'twitter:card' }],
     [
       'meta',
       {
