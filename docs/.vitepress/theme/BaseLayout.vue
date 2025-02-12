@@ -16,24 +16,31 @@ onMounted(() => {
   if (inBrowser) {
     const systemLocales =
       'navigator' in window ? window.navigator.languages : []
-    const systemLocale = systemLocales.find(
-      (locale) =>
-        enabled.includes(locale as LanguageValue) ||
-        enabled.includes(locale.split('-')[0] as LanguageValue),
-    )
-    const locale =
+
+    const systemMatch =
+      systemLocales.find(
+        (locale) =>
+          enabled.includes(locale as LanguageValue) ||
+          enabled.includes(locale.split('-')[0] as LanguageValue),
+      ) ?? 'en'
+
+    const systemLocale = enabled.includes(systemMatch as LanguageValue)
+      ? systemMatch
+      : (systemMatch.split('-')[0] as LanguageValue)
+
+    const preferredLocale =
       ('localStorage' in window
         ? window.localStorage.getItem('locale')
         : null) || systemLocale
 
-    if (locale !== lang.value) {
+    if (preferredLocale !== lang.value) {
       const path = useRouter().route.path
-      if (locale !== 'en' && lang.value !== 'en') {
-        useRouter().go(path.replace(`/${lang.value}/`, `/${locale}/`))
-      } else if (locale === 'en') {
+      if (preferredLocale !== 'en' && lang.value !== 'en') {
+        useRouter().go(path.replace(`/${lang.value}/`, `/${preferredLocale}/`))
+      } else if (preferredLocale === 'en') {
         useRouter().go(path.replace(`/${lang.value}/`, '/'))
       } else {
-        useRouter().go(path.replace('/', `/${locale}/`))
+        useRouter().go(path.replace('/', `/${preferredLocale}/`))
       }
     }
   }
