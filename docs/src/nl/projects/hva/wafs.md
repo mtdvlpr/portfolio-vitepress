@@ -1,26 +1,26 @@
 ---
 title: Web App From Scratch
-description: A course about building a web app from scratch.
+description: Een vak over het bouwen van een webapp vanaf het begin.
 ---
 
 # Web App From Scratch
 
-Web App From Scratch was the first course of the minor Web Design & Development at the HvA. The course is about creating a web app from scratch using only HTML, CSS and JavaScript.
+Web App From Scratch was het eerste vak van de minor Web Design & Development op de HvA. Het vak gaat over het maken van een webapp vanaf het begin met behulp van alleen HTML, CSS en JavaScript.
 
-## Assignments
+## Opdrachten
 
-There were two assignments during this course. An individual one and a team one.
+Er waren twee opdrachten tijdens dit vak. Een Individuele en een groepsopdracht.
 
-### Individual assignment
+### Individuele opdracht
 
-For this course, I had to create a web app from scratch using only HTML, CSS and JavaScript. I had to create a web app that uses an API to get data and display it on the page. I also had to create a feature that allows the user to interact with the data. I had to make sure that the web app is accessible to everyone. I also had to make sure that the web app works on all devices and screen sizes.
+Voor dit vak moest ik een webapp maken vanaf het begin met behulp van alleen HTML, CSS en JavaScript. Ik moest een webapp maken die een API gebruikt om gegevens te verkrijgen en op de pagina te tonen. Ik moest ook een functie maken waarmee de gebruiker de gegevens kan gebruiken. Ik moest ervoor zorgen dat de webapp voor iedereen toegankelijk is. Ik moest er ook voor zorgen dat de webapp op alle apparaten en schermgroottes werkt.
 
-- [See the code](https://github.com/mtdvlpr/web-app-from-scratch-2324)
-- [See the result](https://mtdvlpr.github.io/web-app-from-scratch-2324/)
+- [Bekijk de code](https://github.com/mtdvlpr/web-app-from-scratch-2324)
+- [Zie het resultaat](https://mtdvlpr.github.io/web-app-from-scratch-2324/)
 
-### Team assignment
+### Groepsopdracht
 
-For the team assignment, I had to work together with a team to create a web app from scratch using only HTML, CSS and JavaScript. We had to create a web app that fetches data from the individual assignments and displays it on the page.
+Voor de groepsopdracht moest ik samenwerken met een team om een webapp vanaf het begin te maken met behulp van alleen HTML, CSS en JavaScript. We moesten een webapp maken die gegevens ophaalt van de individuele opdrachten en deze op de pagina weergeeft.
 
-- [See the code](https://github.com/mtdvlpr/web-app-from-scratch-2324-team)
-- [See the result](https://mtdvlpr.github.io/web-app-from-scratch-2324-team/)
+- [Bekijk de code](https://github.com/mtdvlpr/web-app-from-scratch-2324-team)
+- [Zie het resultaat](https://mtdvlpr.github.io/web-app-from-scratch-2324-team/)
