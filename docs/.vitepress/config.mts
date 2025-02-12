@@ -62,6 +62,17 @@ export default defineConfig({
     //   },
     // ],
 
+    // General link tags
+    [
+      'link',
+      {
+        href: '/sitemap.xml',
+        rel: 'sitemap',
+        title: 'Sitemap',
+        type: 'application/xml',
+      },
+    ],
+
     // General meta tags
     ['meta', { content: 'light dark', name: 'color-scheme' }],
     ['meta', { content: '#3075F2', name: 'theme-color' }],
