@@ -43,17 +43,12 @@ node_modules/
 .env.local
 
 # vitepress build output and cache sir
-.vitepress/dist
-.vitepress/cache
+docs/.vitepress/dist/
+docs/.vitepress/cache/
 
 # Yarn
 .pnp.*
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/sdks
-!.yarn/versions
+.yarn/
 
 # MacOS
 .DS_Store
