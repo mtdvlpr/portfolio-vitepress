@@ -1,11 +1,11 @@
 import { defineConfig } from 'vitepress'
 
 import messages, { enabled, type LanguageValue, locales } from './../locales'
-import { CANONICAL_URL, GH_REPO, GH_REPO_URL } from './../utils/constants'
+import { CANONICAL_URL, GH_REPO_URL } from './../utils/constants'
 import { camelToKebabCase, kebabToCamelCase } from './../utils/general'
 import { mapLocales, mapSearch } from './../utils/locales'
 
-const base = `/${GH_REPO}/`
+const base = `/`
 const srcExclude = locales
   .filter((l) => l.value !== 'en' && !enabled.includes(l.value))
   .map((l) => `**/${camelToKebabCase(l.value)}/*.md`)
