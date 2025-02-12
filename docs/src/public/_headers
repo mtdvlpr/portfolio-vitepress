@@ -1,0 +1,5 @@
+/sitemap.xml
+  Content-Type: application/xml
+/assets/*
+  cache-control: max-age=31536000
+  cache-control: immutable

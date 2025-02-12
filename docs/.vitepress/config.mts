@@ -147,6 +147,9 @@ export default defineConfig({
     image: { lazyLoading: true },
   },
   rewrites: { 'en/:rest*': ':rest*' },
+  sitemap: {
+    hostname: CANONICAL_URL,
+  },
   srcDir: './src',
   srcExclude,
   themeConfig: {
