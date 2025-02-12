@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 import messages, { enabled, type LanguageValue, locales } from './../locales'
-import { CANONICAL_URL, GH_REPO_URL } from './../utils/constants'
+import { AUTHOR, CANONICAL_URL, GH_REPO_URL } from './../utils/constants'
 import { camelToKebabCase, kebabToCamelCase } from './../utils/general'
 import { mapLocales, mapSearch } from './../utils/locales'
 
@@ -16,61 +16,73 @@ export default defineConfig({
   cleanUrls: true,
   head: [
     // Favicon variants
-    // [
-    //   'link',
-    //   {
-    //     href: `${base}icons/icon-128x128.png`,
-    //     rel: 'icon',
-    //     sizes: '128x128',
-    //     type: 'image/png',
-    //   },
-    // ],
-    // [
-    //   'link',
-    //   {
-    //     href: `${base}icons/icon-96x96.png`,
-    //     rel: 'icon',
-    //     sizes: '96x96',
-    //     type: 'image/png',
-    //   },
-    // ],
-    // [
-    //   'link',
-    //   {
-    //     href: `${base}icons/icon-32x32.png`,
-    //     rel: 'icon',
-    //     sizes: '32x32',
-    //     type: 'image/png',
-    //   },
-    // ],
-    // [
-    //   'link',
-    //   {
-    //     href: `${base}icons/icon-16x16.png`,
-    //     rel: 'icon',
-    //     sizes: '16x16',
-    //     type: 'image/png',
-    //   },
-    // ],
-    // ['link', { href: `${base}favicon.ico`, rel: 'icon', type: 'image/ico' }],
-    // [
-    //   'link',
-    //   {
-    //     href: `${base}logo.svg`,
-    //     rel: 'icon',
-    //     type: 'image/svg+xml',
-    //   },
-    // ],
+    [
+      'link',
+      {
+        href: `${base}icons/icon-128x128.png`,
+        rel: 'icon',
+        sizes: '128x128',
+        type: 'image/png',
+      },
+    ],
+    [
+      'link',
+      {
+        href: `${base}icons/icon-96x96.png`,
+        rel: 'icon',
+        sizes: '96x96',
+        type: 'image/png',
+      },
+    ],
+    [
+      'link',
+      {
+        href: `${base}icons/icon-32x32.png`,
+        rel: 'icon',
+        sizes: '32x32',
+        type: 'image/png',
+      },
+    ],
+    [
+      'link',
+      {
+        href: `${base}icons/icon-16x16.png`,
+        rel: 'icon',
+        sizes: '16x16',
+        type: 'image/png',
+      },
+    ],
+    ['link', { href: `${base}favicon.ico`, rel: 'icon', type: 'image/ico' }],
+    [
+      'link',
+      {
+        href: `${base}logo.svg`,
+        rel: 'icon',
+        type: 'image/svg+xml',
+      },
+    ],
+
+    // General link tags
+    [
+      'link',
+      {
+        href: '/sitemap.xml',
+        rel: 'sitemap',
+        title: 'Sitemap',
+        type: 'application/xml',
+      },
+    ],
 
     // General meta tags
+    ['meta', { content: AUTHOR, name: 'author' }],
     ['meta', { content: 'light dark', name: 'color-scheme' }],
     ['meta', { content: '#3075F2', name: 'theme-color' }],
     ['meta', { content: 'yes', name: 'mobile-web-app-capable' }],
     ['meta', { content: 'telephone=no', name: 'format-detection' }],
-    // [
-    //   'meta',
-    //   { content: `${base}browserconfig.xml`, name: 'msapplication-config' },
-    // ],
+    [
+      'meta',
+      { content: `${base}browserconfig.xml`, name: 'msapplication-config' },
+    ],
 
     // Apple meta tags
     ['meta', { content: 'yes', name: 'apple-mobile-web-app-capable' }],
@@ -80,35 +92,25 @@ export default defineConfig({
     ],
 
     // Twitter meta tags
-    // ['meta', { content: 'summary_large_image', name: 'twitter:card' }],
-    // [
-    //   'meta',
-    //   {
-    //     content: `${CANONICAL_URL}portfolio-cover.png`,
-    //     name: 'twitter:image',
-    //   },
-    // ],
-    // ['meta', { content: 'Portfolio cover', name: 'twitter:image:alt' }],
+    ['meta', { content: 'summary_large_image', name: 'twitter:card' }],
+    [
+      'meta',
+      {
+        content: `${CANONICAL_URL}portfolio-cover.png`,
+        name: 'twitter:image',
+      },
+    ],
+    ['meta', { content: 'Portfolio cover', name: 'twitter:image:alt' }],
 
     // Project cover og image
-    // [
-    //   'meta',
-    //   { content: `${CANONICAL_URL}portfolio-cover.png`, property: 'og:image' },
-    // ],
-    // ['meta', { content: 'image/png', property: 'og:image:type' }],
-    // ['meta', { content: '1442', property: 'og:image:width' }],
-    // ['meta', { content: '865', property: 'og:image:height' }],
-    // ['meta', { content: 'Portfolio cover', property: 'og:image:alt' }],
-
-    // Repo preview og image
-    // [
-    //   'meta',
-    //   { content: `${CANONICAL_URL}portfolio-preview.png`, property: 'og:image' },
-    // ],
-    // ['meta', { content: 'image/png', property: 'og:image:type' }],
-    // ['meta', { content: '1280', property: 'og:image:width' }],
-    // ['meta', { content: '640', property: 'og:image:height' }],
-    // ['meta', { content: 'Portfolio preview banner', property: 'og:image:alt' }],
+    [
+      'meta',
+      { content: `${CANONICAL_URL}portfolio-cover.png`, property: 'og:image' },
+    ],
+    ['meta', { content: 'image/png', property: 'og:image:type' }],
+    ['meta', { content: '1910', property: 'og:image:width' }],
+    ['meta', { content: '1000', property: 'og:image:height' }],
+    ['meta', { content: 'Portfolio cover', property: 'og:image:alt' }],
 
     // Logo og image
     [
@@ -154,7 +156,7 @@ export default defineConfig({
   srcExclude,
   themeConfig: {
     externalLinkIcon: true,
-    logo: '/logo.jpg',
+    logo: '/logo.svg',
     search: mapSearch(),
     socialLinks: [{ ariaLabel: 'GitHub', icon: 'github', link: GH_REPO_URL }],
   },
@@ -211,6 +213,10 @@ export default defineConfig({
           property: 'og:type',
         },
       ],
+
+      // Page author
+      ['meta', { content: AUTHOR, property: 'og:author' }],
+      ['meta', { content: AUTHOR, property: 'article:author' }],
 
       // Page last updated
       ['meta', { content: lastUpdated, property: 'og:updated_time' }],
