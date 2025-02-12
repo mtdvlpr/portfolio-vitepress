@@ -16,7 +16,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -26,8 +26,10 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 20.18.1
+          node-version: 20
           cache: 'yarn'
+      - name: Install dependencies
+        run: yarn install
       - name: Lint
         run: yarn lint
       - name: Test
