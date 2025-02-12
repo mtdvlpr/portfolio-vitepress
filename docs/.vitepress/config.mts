@@ -296,8 +296,8 @@ export default defineConfig({
 
           if (match) {
             sessionStorage.setItem('firstVisit', false);
-            const page = isEnglish ? parts[2] : parts[3]
-            window.location.pathname = "${base}" + (match !== 'en' ? match + '/' : '') + page
+            const page = isEnglish ? parts[1] : parts[2]
+            if (page) window.location.pathname = "${base}" + (match !== 'en' ? match + '/' : '') + page
           }
         }
         `,
