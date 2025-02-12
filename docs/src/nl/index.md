@@ -17,11 +17,11 @@ hero:
 features:
   - icon: ⚡️
     title: Front-end stacks
-    details: Vue/Nuxt, Svelte(Kit), TypeScript, and more!
+    details: Vue/Nuxt, Svelte(Kit), TypeScript, en meer!
   - icon: 🛠️
     title: Back-end stacks
-    details: Node.js, Python/FastAPI, PHP/Laravel, and more!
+    details: Node.js, Python/FastAPI, PHP/Laravel, en meer!
   - icon: 🔧
     title: Tools
-    details: Git, GitHub, VS Code, Figma, and more!
+    details: Git, GitHub, VS Code, Figma, en meer!
 ---
