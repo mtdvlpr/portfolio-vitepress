@@ -1,12 +1,41 @@
 <script setup lang="ts">
-import { inBrowser, useData } from 'vitepress'
+import { inBrowser, useData, useRouter } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
-import { watchEffect } from 'vue'
+import { onMounted, watch } from 'vue'
+
+import { enabled, type LanguageValue } from './../../locales'
 
 const { lang } = useData()
-watchEffect(() => {
+watch(lang, (val) => {
+  if (inBrowser && 'localStorage' in window) {
+    window.localStorage.setItem('locale', val)
+  }
+})
+
+onMounted(() => {
   if (inBrowser) {
-    document.cookie = `nf_lang=${lang.value}; expires=Mon, 1 Jan 2030 00:00:00 UTC; path=/`
+    const systemLocales =
+      'navigator' in window ? window.navigator.languages : []
+    const systemLocale = systemLocales.find(
+      (locale) =>
+        enabled.includes(locale as LanguageValue) ||
+        enabled.includes(locale.split('-')[0] as LanguageValue),
+    )
+    const locale =
+      ('localStorage' in window
+        ? window.localStorage.getItem('locale')
+        : null) || systemLocale
+
+    if (locale !== lang.value) {
+      const path = useRouter().route.path
+      if (locale !== 'en' && lang.value !== 'en') {
+        useRouter().go(path.replace(`/${lang.value}/`, `/${locale}/`))
+      } else if (locale === 'en') {
+        useRouter().go(path.replace(`/${lang.value}/`, '/'))
+      } else {
+        useRouter().go(path.replace('/', `/${locale}/`))
+      }
+    }
   }
 })
 </script>
