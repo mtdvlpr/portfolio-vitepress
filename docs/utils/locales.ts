@@ -173,6 +173,7 @@ export const mapThemeConfig = (
             { link: '/wafs', text: 'Web App From Scratch' },
             { link: '/css-to-the-rescue', text: 'CSS to the Rescue' },
             { link: '/browser-technology', text: 'Browser Technology' },
+            { link: '/hva-hackathon', text: 'HvA Hackathon' },
           ],
           text: 'Web Design & Development minor',
         },
