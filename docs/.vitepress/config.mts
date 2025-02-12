@@ -268,40 +268,6 @@ export default defineConfig({
             },
           ]
         }),
-      [
-        'script',
-        {},
-        `
-        const firstVisit = sessionStorage.getItem('firstVisit') !== 'false';
-        const parts = window.location.pathname.split('/');
-        const enabled = ${JSON.stringify(enabled)};
-        const isEnglish = !enabled.includes(parts[0]);
-
-        if (firstVisit && isEnglish) {
-          const langs = [${locales.filter((l) => enabled.includes(l.value)).map((l) => `"${camelToKebabCase(l.value)}"`)}]
-
-          function mapLang(lang) {
-            switch (lang) {
-              default:
-                return lang.toLowerCase();
-            }
-          }
-
-          let match;
-          navigator.languages.forEach((lang) => {
-            const mapped = mapLang(lang);
-            if (!match) match = langs.find((l) => l === mapped);
-            if (!match) match = langs.find((l) => l === mapped.split('-')[0]);
-          })
-
-          if (match) {
-            sessionStorage.setItem('firstVisit', false);
-            const page = isEnglish ? parts[1] : parts[2]
-            if (page) window.location.pathname = "${base}" + (match !== 'en' ? match + '/' : '') + page
-          }
-        }
-        `,
-      ],
     )
   },
 })
