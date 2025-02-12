@@ -158,7 +158,14 @@ export default defineConfig({
     externalLinkIcon: true,
     logo: '/logo.svg',
     search: mapSearch(),
-    socialLinks: [{ ariaLabel: 'GitHub', icon: 'github', link: GH_REPO_URL }],
+    socialLinks: [
+      { ariaLabel: 'GitHub', icon: 'github', link: GH_REPO_URL },
+      {
+        ariaLabel: 'LinkedIn',
+        icon: 'linkedin',
+        link: 'https://www.linkedin.com/in/manoaht/',
+      },
+    ],
   },
   transformPageData(pageData) {
     const canonicalUrl = `${CANONICAL_URL}${pageData.relativePath}`

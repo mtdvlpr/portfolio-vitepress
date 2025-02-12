@@ -133,10 +133,6 @@ export const mapThemeConfig = (
   },
   footer: {
     copyright: `${msg.copyright} © ${new Date().getFullYear()} ${AUTHOR}`,
-    message: msg.footerMessage?.replace(
-      '{linkToLicense}',
-      `<a href="${GH_REPO_URL}/blob/master/LICENSE.md">AGPL-3.0 License</a>`,
-    ),
   },
   langMenuLabel: msg.langMenuLabel,
   lastUpdated: {
