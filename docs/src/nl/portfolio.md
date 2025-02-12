@@ -5,23 +5,23 @@ description: Mijn projecten.
 
 # Mijn portfolio
 
-I've worked on a variety of projects, from school projects to personal projects.
+Ik heb aan verschillende projecten gewerkt, van schoolprojecten tot persoonlijke projecten.
 
-## School projects
+## School projecten
 
-I have worked on a variety of projects during my time at school.
+Ik heb tijdens mijn schooltijd aan diverse projecten gewerkt.
 
 ### Hogeschool van Amsterdam (HvA)
 
-During my minor Web Design & Development at the HvA I had several assignments which involved creating web apps. Here are some of them:
+Tijdens mijn Web Design & Development minor bij de HvA had ik verschillende opdrachten die betrekking hadden op het maken van web apps. Hier zijn er enkelen:
 
 - [Web App from Scratch](/projects/hva/wafs)
 - [CSS to the Rescue](/projects/hva/css-to-the-rescue)
 - [Browser Technology](/projects/hva/browser-technology)
 - [HvA Hackathon](/projects/hva/hva-hackathon)
 
-## Work projects
+## Werk projecten
 
-I have worked on many projects during my career. Many of them are confidential, but here are some that I can share:
+Ik heb tijdens mijn carrière aan veel projecten gewerkt. Veel ervan zijn vertrouwelijk, maar hier zijn enkelen die ik kan delen:
 
 - [Mag ik dit delen?](/projects/mag-ik-dit-delen)

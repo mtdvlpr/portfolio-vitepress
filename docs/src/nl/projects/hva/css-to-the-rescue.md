@@ -1,26 +1,26 @@
 ---
 title: CSS to the Rescue
-description: A course about experimenting with CSS.
+description: Een vak over het experimenteren met CSS.
 ---
 
 # CSS to the Rescue
 
-CSS to the Rescue was the second course of the minor Web Development at the HvA. The course is about experimenting with CSS to create a cool, interactive website without using JavaScript.
+CSS voor de Rescue was het tweede vak van de minor Web Development op de HvA. Het vak gaat over het experimenteren met CSS om een coole, interactieve website te maken zonder JavaScript te gebruiken.
 
-## Assignments
+## Opdrachten
 
-There were two assignments during this course. An individual one and a team one.
+Er waren twee opdrachten tijdens dit vak. Een Individuele en een groepsopdracht.
 
-### Individual assignment
+### Individuele opdracht
 
-For this course, I had to create a cool, interactive website using only CSS. I had to experiment with new(ish) CSS features. I chose to create a Pacman game using only CSS.
+Voor dit vak moest ik een coole, interactieve website maken met behulp van alleen CSS. Ik moest experimenteren met nieuwe CSS-functies. Ik koos ervoor om een Pacman-spel te maken met alleen CSS.
 
-- [See the code](https://github.com/mtdvlpr/CSSttR-assignment)
-- [See the result](https://mtdvlpr.github.io/CSSttR-assignment/)
+- [Bekijk de code](https://github.com/mtdvlpr/CSSttR-assignment)
+- [Zie het resultaat](https://mtdvlpr.github.io/CSSttR-assignment/)
 
-### Team assignment
+### Groepsopdracht
 
-For the team assignment, I had to work together with a team to experiment with new(ish) CSS features related to colors and present the results to our classmates.
+Voor de groepsopdarcht, moest ik samenwerken met een team om te experimenteren met nieuwe CSS-functies met betrekking tot kleuren en de resultaten aan onze klasgenoten presenteren.
 
-- [See the code](https://github.com/mtdvlpr/CSSttR-team-assignment)
-- [See the result](https://mtdvlpr.github.io/CSSttR-team-assignment/manoah.html)
+- [Bekijk de code](https://github.com/mtdvlpr/CSSttR-team-assignment)
+- [Zie het resultaat](https://mtdvlpr.github.io/CSSttR-team-assignment/manoah.html)

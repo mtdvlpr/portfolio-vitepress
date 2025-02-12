@@ -1,15 +1,15 @@
 ---
 title: Browser Technology
-description: A course about building a web app that works for everyone, no matter what browser or device they use.
+description: Een vak over het maken van een web-app die voor iedereen werkt, ongeacht welke browser of apparaat ze gebruiken.
 ---
 
 # Browser Technology
 
-Browser Technology was the third course of the minor Web Design & Development at the HvA. The course is about creating a web app that works for everyone, no matter what browser or device they use.
+Browser technologie was het derde vak van de minor Web Design & Development bij de HvA. Het vak gaat over het maken van een web-app die voor iedereen werkt, ongeacht welke browser of apparaat ze gebruiken.
 
-## Assignment
+## Opdracht
 
-For this course, I had to create a digital version of a tax form using vanilla HTML, CSS and JavaScript. I had to make sure that the form is accessible to everyone and that it works on all devices, browsers and screen sizes. It should also work if CSS or JavaScript or both are disabled.
+Voor dit vak moest ik een digitale versie van een belastingformulier maken met vanilla HTML, CSS en JavaScript. Ik moest ervoor zorgen dat het formulier voor iedereen toegankelijk was en dat het op alle apparaten, browsers en schermgroottes werkt. Het zou ook moeten werken als CSS of JavaScript of beide zijn uitgeschakeld.
 
-- [See the code](https://github.com/mtdvlpr/bt-tax-form)
-- [See the result](https://mtdvlpr.github.io/bt-tax-form/)
+- [Bekijk de code](https://github.com/mtdvlpr/bt-tax-form)
+- [Zie het resultaat](https://mtdvlpr.github.io/bt-tax-form/)

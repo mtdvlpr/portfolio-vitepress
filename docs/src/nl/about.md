@@ -9,11 +9,11 @@ description: Wat informatie over mij.
 
 # Over mij
 
-Hi! I’m a full‑stack developer with a passion for crafting dynamic, user‐focused web experiences. Ever since I wrote my first “Hello, World” script, I’ve been driven to solve complex problems and build intuitive solutions that make a real impact.
+Hi! Ik ben een full-stack ontwikkelaar met een passie voor het creëren van dynamische, gebruikersgerichte webervaringen. Sinds ik mijn eerste "Hello, World"-script schreef, ben ik gedreven om complexe problemen op te lossen en intuïtieve oplossingen te bouwen die een echte impact hebben.
 
-I thrive on the challenge of learning new technologies and refining my skills, whether I’m debugging a tricky issue or exploring the latest web frameworks, I’m constantly evolving to stay ahead of the curve.
+Ik houd van de uitdaging om nieuwe technologieën te leren en mijn vaardigheden aan te scherpen, of ik nu een lastig probleem aan het debuggen ben of de nieuwste webframeworks aan het verkennen ben, ik evolueer constant om voorop te blijven lopen.
 
-I believe that every project is an opportunity to create something innovative and meaningful. If you’re looking for a developer who loves to dive into challenges, learn on the fly, and deliver solutions that truly work, let’s connect and explore how we can build something exceptional together.
+Ik geloof dat elk project een kans is om iets innovatiefs en betekenisvols te creëren. Als je op zoek bent naar een ontwikkelaar die graag uitdagingen aangaat, snel leert en oplossingen levert die echt werken, laten we dan in contact komen en ontdekken hoe we samen iets uitzonderlijks kunnen bouwen.
 
 ## Talen
 
