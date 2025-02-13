@@ -19,7 +19,7 @@ export default defineConfig({
     [
       'link',
       {
-        href: `${base}icons/icon-128x128.png`,
+        href: `${base}icons/icon-128x128.webp`,
         rel: 'icon',
         sizes: '128x128',
         type: 'image/png',
@@ -28,7 +28,7 @@ export default defineConfig({
     [
       'link',
       {
-        href: `${base}icons/icon-96x96.png`,
+        href: `${base}icons/icon-96x96.webp`,
         rel: 'icon',
         sizes: '96x96',
         type: 'image/png',
@@ -37,7 +37,7 @@ export default defineConfig({
     [
       'link',
       {
-        href: `${base}icons/icon-32x32.png`,
+        href: `${base}icons/icon-32x32.webp`,
         rel: 'icon',
         sizes: '32x32',
         type: 'image/png',
@@ -46,7 +46,7 @@ export default defineConfig({
     [
       'link',
       {
-        href: `${base}icons/icon-16x16.png`,
+        href: `${base}icons/icon-16x16.webp`,
         rel: 'icon',
         sizes: '16x16',
         type: 'image/png',
@@ -96,7 +96,7 @@ export default defineConfig({
     [
       'meta',
       {
-        content: `${CANONICAL_URL}portfolio-cover.png`,
+        content: `${CANONICAL_URL}portfolio-cover.webp`,
         name: 'twitter:image',
       },
     ],
@@ -105,9 +105,9 @@ export default defineConfig({
     // Project cover og image
     [
       'meta',
-      { content: `${CANONICAL_URL}portfolio-cover.png`, property: 'og:image' },
+      { content: `${CANONICAL_URL}portfolio-cover.webp`, property: 'og:image' },
     ],
-    ['meta', { content: 'image/png', property: 'og:image:type' }],
+    ['meta', { content: 'image/webp', property: 'og:image:type' }],
     ['meta', { content: '1910', property: 'og:image:width' }],
     ['meta', { content: '1000', property: 'og:image:height' }],
     ['meta', { content: 'Portfolio cover', property: 'og:image:alt' }],
@@ -116,13 +116,13 @@ export default defineConfig({
     [
       'meta',
       {
-        content: `${CANONICAL_URL}logo.jpg`,
+        content: `${CANONICAL_URL}icons/icon-512x512.webp`,
         property: 'og:image',
       },
     ],
-    ['meta', { content: 'image/jpeg', property: 'og:image:type' }],
-    ['meta', { content: '460', property: 'og:image:width' }],
-    ['meta', { content: '460', property: 'og:image:height' }],
+    ['meta', { content: 'image/webp', property: 'og:image:type' }],
+    ['meta', { content: '512', property: 'og:image:width' }],
+    ['meta', { content: '512', property: 'og:image:height' }],
     ['meta', { content: 'Portfolio logo', property: 'og:image:alt' }],
   ],
   lastUpdated: true,

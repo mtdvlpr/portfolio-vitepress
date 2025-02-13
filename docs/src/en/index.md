@@ -6,7 +6,7 @@ hero:
   text: A full-stack developer
   tagline:
   image:
-    src: /me.jpg
+    src: /me.webp
     alt: Manoah's profile picture
   actions:
     - theme: brand
