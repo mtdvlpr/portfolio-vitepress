@@ -1,7 +1,10 @@
-import fs from 'fs-extra'
+import { exec } from 'child_process'
 import path from 'upath'
 import { fileURLToPath } from 'url'
+import { promisify } from 'util'
 import { defineConfig } from 'vitepress'
+
+const execPromise = promisify(exec)
 
 import messages, { enabled, type LanguageValue, locales } from './../locales'
 import { AUTHOR, CANONICAL_URL, GH_REPO_URL } from './../utils/constants'
@@ -183,7 +186,7 @@ export default defineConfig({
       },
     ],
   },
-  transformPageData(pageData) {
+  async transformPageData(pageData) {
     const canonicalUrl = `${CANONICAL_URL}${pageData.relativePath}`
       .replace(/index\.md$/, '')
       .replace(/\.md$/, '')
@@ -194,13 +197,17 @@ export default defineConfig({
       pageData.relativePath.split('/')[0] as LanguageValue,
     )
 
-    const createdDate = fs
-      .statSync(
-        fileURLToPath(
+    let createdDate = ''
+    try {
+      const { stdout } = await execPromise(
+        `git log --follow --format=%ad --date iso-strict ${fileURLToPath(
           new URL(path.join('../src/', pageData.filePath), import.meta.url),
-        ),
+        )} | tail -1`,
       )
-      .birthtime.toISOString()
+      createdDate = stdout.trim()
+    } catch {
+      createdDate = ''
+    }
     const lastUpdated = (
       pageData.lastUpdated ? new Date(pageData.lastUpdated) : new Date()
     ).toISOString()
@@ -247,9 +254,6 @@ export default defineConfig({
       // Page author
       ['meta', { content: AUTHOR, property: 'og:author' }],
       ['meta', { content: AUTHOR, property: 'article:author' }],
-
-      // Page published time
-      ['meta', { content: createdDate, name: 'article:published_time' }],
 
       // Page last updated
       ['meta', { content: lastUpdated, property: 'og:updated_time' }],
@@ -311,5 +315,12 @@ export default defineConfig({
           ]
         }),
     )
+
+    if (createdDate) {
+      pageData.frontmatter.head.push(
+        // Page published time
+        ['meta', { content: createdDate, name: 'article:published_time' }],
+      )
+    }
   },
 })
