@@ -22,7 +22,7 @@ export default defineConfig({
         href: `${base}icons/icon-128x128.webp`,
         rel: 'icon',
         sizes: '128x128',
-        type: 'image/png',
+        type: 'image/webp',
       },
     ],
     [
@@ -31,7 +31,7 @@ export default defineConfig({
         href: `${base}icons/icon-96x96.webp`,
         rel: 'icon',
         sizes: '96x96',
-        type: 'image/png',
+        type: 'image/webp',
       },
     ],
     [
@@ -40,7 +40,7 @@ export default defineConfig({
         href: `${base}icons/icon-32x32.webp`,
         rel: 'icon',
         sizes: '32x32',
-        type: 'image/png',
+        type: 'image/webp',
       },
     ],
     [
@@ -49,7 +49,7 @@ export default defineConfig({
         href: `${base}icons/icon-16x16.webp`,
         rel: 'icon',
         sizes: '16x16',
-        type: 'image/png',
+        type: 'image/webp',
       },
     ],
     ['link', { href: `${base}favicon.ico`, rel: 'icon', type: 'image/ico' }],
