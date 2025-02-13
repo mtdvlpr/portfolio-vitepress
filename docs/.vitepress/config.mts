@@ -96,13 +96,18 @@ export default defineConfig({
     [
       'meta',
       {
-        content: `${CANONICAL_URL}portfolio-cover.png`,
+        content: `${CANONICAL_URL}portfolio-cover.webp`,
         name: 'twitter:image',
       },
     ],
     ['meta', { content: 'Portfolio cover', name: 'twitter:image:alt' }],
 
     // Project cover og image
+    [
+      'meta',
+      { content: `${CANONICAL_URL}portfolio-cover.webp`, property: 'og:image' },
+    ],
+    ['meta', { content: 'image/webp', property: 'og:image:type' }],
     [
       'meta',
       { content: `${CANONICAL_URL}portfolio-cover.png`, property: 'og:image' },
@@ -113,6 +118,14 @@ export default defineConfig({
     ['meta', { content: 'Portfolio cover', property: 'og:image:alt' }],
 
     // Logo og image
+    [
+      'meta',
+      {
+        content: `${CANONICAL_URL}icons/icon-512x512.webp`,
+        property: 'og:image',
+      },
+    ],
+    ['meta', { content: 'image/webp', property: 'og:image:type' }],
     [
       'meta',
       {
