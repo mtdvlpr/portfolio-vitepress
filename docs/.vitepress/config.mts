@@ -319,7 +319,7 @@ export default defineConfig({
     if (createdDate) {
       pageData.frontmatter.head.push(
         // Page published time
-        ['meta', { content: createdDate, name: 'article:published_time' }],
+        ['meta', { content: createdDate, property: 'article:published_time' }],
       )
     }
   },
