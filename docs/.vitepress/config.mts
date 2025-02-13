@@ -1,4 +1,6 @@
-import { statSync } from 'fs'
+import fs from 'fs-extra'
+import path from 'upath'
+import { fileURLToPath } from 'url'
 import { defineConfig } from 'vitepress'
 
 import messages, { enabled, type LanguageValue, locales } from './../locales'
@@ -192,7 +194,13 @@ export default defineConfig({
       pageData.relativePath.split('/')[0] as LanguageValue,
     )
 
-    const createdDate = statSync(pageData.filePath).birthtime.toISOString()
+    const createdDate = fs
+      .statSync(
+        fileURLToPath(
+          new URL(path.join('../src/', pageData.filePath), import.meta.url),
+        ),
+      )
+      .birthtime.toISOString()
     const lastUpdated = (
       pageData.lastUpdated ? new Date(pageData.lastUpdated) : new Date()
     ).toISOString()
