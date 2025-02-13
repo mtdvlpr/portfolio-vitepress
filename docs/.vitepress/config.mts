@@ -19,37 +19,37 @@ export default defineConfig({
     [
       'link',
       {
-        href: `${base}icons/icon-128x128.webp`,
+        href: `${base}icons/icon-128x128.png`,
         rel: 'icon',
         sizes: '128x128',
-        type: 'image/webp',
+        type: 'image/png',
       },
     ],
     [
       'link',
       {
-        href: `${base}icons/icon-96x96.webp`,
+        href: `${base}icons/icon-96x96.png`,
         rel: 'icon',
         sizes: '96x96',
-        type: 'image/webp',
+        type: 'image/png',
       },
     ],
     [
       'link',
       {
-        href: `${base}icons/icon-32x32.webp`,
+        href: `${base}icons/icon-32x32.png`,
         rel: 'icon',
         sizes: '32x32',
-        type: 'image/webp',
+        type: 'image/png',
       },
     ],
     [
       'link',
       {
-        href: `${base}icons/icon-16x16.webp`,
+        href: `${base}icons/icon-16x16.png`,
         rel: 'icon',
         sizes: '16x16',
-        type: 'image/webp',
+        type: 'image/png',
       },
     ],
     ['link', { href: `${base}favicon.ico`, rel: 'icon', type: 'image/ico' }],
@@ -96,7 +96,7 @@ export default defineConfig({
     [
       'meta',
       {
-        content: `${CANONICAL_URL}portfolio-cover.webp`,
+        content: `${CANONICAL_URL}portfolio-cover.png`,
         name: 'twitter:image',
       },
     ],
