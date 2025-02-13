@@ -80,7 +80,6 @@ export default defineConfig({
     ],
 
     // General meta tags
-    ['meta', { content: AUTHOR, name: 'author' }],
     ['meta', { content: 'light dark', name: 'color-scheme' }],
     ['meta', { content: '#3075F2', name: 'theme-color' }],
     ['meta', { content: 'yes', name: 'mobile-web-app-capable' }],
@@ -252,6 +251,7 @@ export default defineConfig({
       ],
 
       // Page author
+      ['meta', { content: AUTHOR, name: 'author' }],
       ['meta', { content: AUTHOR, property: 'og:author' }],
       ['meta', { content: AUTHOR, property: 'article:author' }],
 
