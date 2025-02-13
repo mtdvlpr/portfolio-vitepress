@@ -5,7 +5,7 @@ description: Mijn projecten.
 
 # Mijn portfolio
 
-I've worked on a variety of projects, from school projects to personal projects. For a more detailed overview of my work, you can check out my [GitHub profile](https://github.com/mtdvlpr) or my [LinkedIn profile](https://www.linkedin.com/in/manoaht/).
+Ik heb aan verschillende projecten gewerkt, van schoolprojecten tot persoonlijke projecten. Voor een meer gedetailleerd overzicht van mijn werk, kun je mijn [GitHub profiel] (https://github.com/mtdvlpr) of mijn [LinkedIn profiel] (https://www.linkedin.com/in/manoaht/) bekijken.
 
 ## School projecten
 
