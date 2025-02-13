@@ -105,9 +105,9 @@ export default defineConfig({
     // Project cover og image
     [
       'meta',
-      { content: `${CANONICAL_URL}portfolio-cover.webp`, property: 'og:image' },
+      { content: `${CANONICAL_URL}portfolio-cover.png`, property: 'og:image' },
     ],
-    ['meta', { content: 'image/webp', property: 'og:image:type' }],
+    ['meta', { content: 'image/png', property: 'og:image:type' }],
     ['meta', { content: '1910', property: 'og:image:width' }],
     ['meta', { content: '1000', property: 'og:image:height' }],
     ['meta', { content: 'Portfolio cover', property: 'og:image:alt' }],
@@ -116,11 +116,11 @@ export default defineConfig({
     [
       'meta',
       {
-        content: `${CANONICAL_URL}icons/icon-512x512.webp`,
+        content: `${CANONICAL_URL}icons/icon-512x512.png`,
         property: 'og:image',
       },
     ],
-    ['meta', { content: 'image/webp', property: 'og:image:type' }],
+    ['meta', { content: 'image/png', property: 'og:image:type' }],
     ['meta', { content: '512', property: 'og:image:width' }],
     ['meta', { content: '512', property: 'og:image:height' }],
     ['meta', { content: 'Portfolio logo', property: 'og:image:alt' }],
