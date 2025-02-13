@@ -1,3 +1,4 @@
+import { statSync } from 'fs'
 import { defineConfig } from 'vitepress'
 
 import messages, { enabled, type LanguageValue, locales } from './../locales'
@@ -191,6 +192,7 @@ export default defineConfig({
       pageData.relativePath.split('/')[0] as LanguageValue,
     )
 
+    const createdDate = statSync(pageData.filePath).birthtime.toISOString()
     const lastUpdated = (
       pageData.lastUpdated ? new Date(pageData.lastUpdated) : new Date()
     ).toISOString()
@@ -237,6 +239,9 @@ export default defineConfig({
       // Page author
       ['meta', { content: AUTHOR, property: 'og:author' }],
       ['meta', { content: AUTHOR, property: 'article:author' }],
+
+      // Page published time
+      ['meta', { content: createdDate, name: 'article:published_time' }],
 
       // Page last updated
       ['meta', { content: lastUpdated, property: 'og:updated_time' }],
