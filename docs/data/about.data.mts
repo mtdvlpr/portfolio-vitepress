@@ -25,7 +25,7 @@ export default defineLoader({
       ],
       languages: [
         'HTML5',
-        'CSS 3',
+        'CSS3',
         'Sass',
         'SCSS',
         'JavaScript',
