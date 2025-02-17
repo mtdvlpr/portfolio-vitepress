@@ -1,11 +1,11 @@
 ---
 title: Web App From Scratch
-description: A course about building a web app from scratch with only vanilla HTML, CSS and JavaScript.
+description: Een vak over het maken van een webapp vanaf het begin met behulp van alleen platte HTML, CSS en JavaScript.
 ---
 
 # Web App From Scratch
 
-Web App From Scratch was het eerste vak van de minor Web Design & Development op de HvA. The course was about creating a web app from scratch using only vanilla HTML, CSS and JavaScript.
+Web App From Scratch was het eerste vak van de minor Web Design & Development op de HvA. Het vak ging over het maken van een webapp vanaf het begin met behulp van alleen platte HTML, CSS en JavaScript.
 
 ## Opdrachten
 
@@ -13,14 +13,14 @@ Er waren twee opdrachten tijdens dit vak. Een Individuele en een groepsopdracht.
 
 ### Individuele opdracht
 
-For this course, Manoah had to create a web app from scratch using only HTML, CSS and JavaScript. He had to create a web app that uses an API to get data and display it on the page and had to create a feature that allows the user to interact with the data. He had to make sure that the web app is accessible to everyone and that the web app works on all devices and screen sizes.
+Voor dit vak moest Manoah een webapp maken vanaf het begin met behulp van alleen HTML, CSS en JavaScript. Hij moest een webapp maken die een API gebruikt om gegevens op te halen en op de pagina weer te geven en hij moest een functie creëren die de gebruiker in staat stelt om met de gegevens te spelen. Hij moest ervoor zorgen dat de app voor iedereen toegankelijk was en dat het op alle apparaten en schermgroottes werkt.
 
 - [Bekijk de code](https://github.com/mtdvlpr/web-app-from-scratch-2324)
 - [Zie het resultaat](https://mtdvlpr.github.io/web-app-from-scratch-2324/)
 
 ### Groepsopdracht
 
-For the team assignment, Manoah had to work together with a team to create a web app from scratch using only HTML, CSS and JavaScript. They had to create a web app that fetches data from the individual assignments and displays it on the page.
+Voor de groepsopdracht moest Manoah samenwerken met een team om een webapp vanaf het begin te maken met behulp van alleen HTML, CSS en JavaScript. Ze moesten een webapp maken die gegevens ophaalt van de individuele opdrachten en deze op de pagina weergeeft.
 
 - [Bekijk de code](https://github.com/mtdvlpr/web-app-from-scratch-2324-team)
 - [Zie het resultaat](https://mtdvlpr.github.io/web-app-from-scratch-2324-team/)
