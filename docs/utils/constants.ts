@@ -8,3 +8,4 @@ export const [GH_AUTHOR, GH_REPO] = GH_REPO_URL.replace(
   'https://github.com/',
   '',
 ).split('/')
+export const GH_AUTHOR_URL = GH_REPO_URL.replace(`/${GH_REPO}`, '')

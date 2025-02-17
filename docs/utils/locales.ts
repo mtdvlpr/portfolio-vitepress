@@ -6,7 +6,7 @@ import type {
 import type { LocalSearchTranslations } from 'vitepress/types/local-search'
 
 import messages, { enabled, locales as localeOptions } from './../locales'
-import { AUTHOR, GH_REPO_URL } from './constants'
+import { AUTHOR, GH_AUTHOR_URL, GH_REPO_URL } from './constants'
 import { camelToKebabCase } from './general'
 
 export type MessageSchema = (typeof messages)['en']
@@ -120,6 +120,16 @@ export const mapSearch = (): {
 const link = (locale: string, url: string) =>
   `${locale === 'en' ? '' : `/${locale}`}/${url}`
 
+const resumeLink = (locale: string) => {
+  const base = 'https://rxresu.me/manoah'
+  switch (locale) {
+    case 'nl':
+      return `${base}/cv`
+    default:
+      return `${base}/resume`
+  }
+}
+
 export const mapThemeConfig = (
   locale: string,
   msg: MessageSchema,
@@ -171,7 +181,7 @@ export const mapThemeConfig = (
             { link: '/browser-technology', text: 'Browser Technology' },
             { link: '/hva-hackathon', text: 'HvA Hackathon' },
           ],
-          text: 'Web Design & Development minor',
+          text: 'Minor Web Design & Development',
         },
       ],
       text: msg.projects,
@@ -180,4 +190,13 @@ export const mapThemeConfig = (
   sidebarMenuLabel: msg.sidebarMenuLabel,
   siteTitle: msg.title,
   skipToContentLabel: msg.skipToContentLabel,
+  socialLinks: [
+    { ariaLabel: 'GitHub', icon: 'github', link: GH_AUTHOR_URL },
+    {
+      ariaLabel: 'LinkedIn',
+      icon: 'linkedin',
+      link: 'https://www.linkedin.com/in/manoaht/',
+    },
+    { ariaLabel: msg.resume, icon: 'reactiveresume', link: resumeLink(locale) },
+  ],
 })

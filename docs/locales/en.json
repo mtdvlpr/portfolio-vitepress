@@ -1,5 +1,5 @@
 {
-  "about": "About me",
+  "about": "About",
   "arrowDown": "down arrow",
   "arrowUp": "up arrow",
   "backButtonTitle": "Back",
@@ -28,6 +28,7 @@
   "portfolio": "Portfolio",
   "projects": "Projects",
   "resetButtonTitle": "Reset search",
+  "resume": "Resume",
   "returnToTopLabel": "Return to top",
   "search": "Search",
   "selectText": "to select",

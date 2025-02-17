@@ -7,7 +7,7 @@ import { defineConfig } from 'vitepress'
 const execPromise = promisify(exec)
 
 import messages, { enabled, type LanguageValue, locales } from './../locales'
-import { AUTHOR, CANONICAL_URL, GH_REPO_URL } from './../utils/constants'
+import { AUTHOR, CANONICAL_URL } from './../utils/constants'
 import { camelToKebabCase, kebabToCamelCase } from './../utils/general'
 import { mapLocales, mapSearch } from './../utils/locales'
 
@@ -176,14 +176,6 @@ export default defineConfig({
     externalLinkIcon: true,
     logo: '/logo.svg',
     search: mapSearch(),
-    socialLinks: [
-      { ariaLabel: 'GitHub', icon: 'github', link: GH_REPO_URL },
-      {
-        ariaLabel: 'LinkedIn',
-        icon: 'linkedin',
-        link: 'https://www.linkedin.com/in/manoaht/',
-      },
-    ],
   },
   async transformPageData(pageData) {
     const canonicalUrl = `${CANONICAL_URL}${pageData.relativePath}`

@@ -10,10 +10,10 @@ hero:
     alt: Manoah's profile picture
   actions:
     - theme: brand
-      text: My portfolio
+      text: Manoah's portfolio
       link: /portfolio
     - theme: alt
-      text: About me
+      text: About Manoah
       link: /about
 
 features:
