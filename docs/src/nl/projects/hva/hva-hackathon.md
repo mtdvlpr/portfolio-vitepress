@@ -1,15 +1,15 @@
 ---
 title: HvA Hackathon
-description: Een hackathon gericht op de 10e verjaardag van CSS Day.
+description: A one-week hackathon focused on the 10th anniversary of CSS Day.
 ---
 
 # HvA Hackathon
 
-De Hackathon was onderdeel van de minor Web Design & Development bij de HvA. Het duurde een week en was gericht op de 10e verjaardag van CSS Day.
+De Hackathon was onderdeel van de minor Web Design & Development bij de HvA. It was a one-week event focused on the 10th anniversary of CSS Day.
 
 ## Opdracht
 
-Voor deze hackathon moesten we een unieke, toegankelijke en responsieve website maken die de data van CSS-dag van de afgelopen tien jaar omvat.
+For this hackathon, Manoah and his team had to create a unique, accessible and responsive website that incorporates the data of CSS Day of the past 10 years.
 
 - [Bekijk de code](https://github.com/JopMolenaar/css-day-ta-JJJM)
 - [Zie het resultaat](https://jopmolenaar.github.io/css-day-ta-JJJM/)
