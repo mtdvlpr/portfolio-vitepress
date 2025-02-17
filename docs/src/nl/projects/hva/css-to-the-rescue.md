@@ -1,11 +1,11 @@
 ---
 title: CSS to the Rescue
-description: Een vak over het experimenteren met CSS.
+description: A course about experimenting with some of the latest features of CSS.
 ---
 
 # CSS to the Rescue
 
-CSS voor de Rescue was het tweede vak van de minor Web Development op de HvA. Het vak gaat over het experimenteren met CSS om een coole, interactieve website te maken zonder JavaScript te gebruiken.
+CSS voor de Rescue was het tweede vak van de minor Web Development op de HvA. The course was about experimenting with some of the latest features of CSS to create a cool, interactive website without using JavaScript.
 
 ## Opdrachten
 
@@ -13,14 +13,14 @@ Er waren twee opdrachten tijdens dit vak. Een Individuele en een groepsopdracht.
 
 ### Individuele opdracht
 
-Voor dit vak moest ik een coole, interactieve website maken met behulp van alleen CSS. Ik moest experimenteren met nieuwe CSS-functies. Ik koos ervoor om een Pacman-spel te maken met alleen CSS.
+For this course, Manoah had to create a cool, interactive website using only HTML and CSS. He had to experiment with new(ish) CSS features. Manoah chose to create a Pacman game using only HTML and CSS.
 
 - [Bekijk de code](https://github.com/mtdvlpr/CSSttR-assignment)
 - [Zie het resultaat](https://mtdvlpr.github.io/CSSttR-assignment/)
 
 ### Groepsopdracht
 
-Voor de groepsopdarcht, moest ik samenwerken met een team om te experimenteren met nieuwe CSS-functies met betrekking tot kleuren en de resultaten aan onze klasgenoten presenteren.
+For the team assignment, Manoah and his team had to work together to experiment with new(ish) CSS features related to colors and present the results to their classmates.
 
 - [Bekijk de code](https://github.com/mtdvlpr/CSSttR-team-assignment)
 - [Zie het resultaat](https://mtdvlpr.github.io/CSSttR-team-assignment/manoah.html)
