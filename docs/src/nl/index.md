@@ -12,7 +12,7 @@ hero:
       text: Manoah's portfolio
       link: /nl/portfolio
     - theme: alt
-      text: About Manoah
+      text: Over Manoah
       link: /nl/about
 features:
   - icon: ⚡️
