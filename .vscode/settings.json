@@ -1,4 +1,11 @@
 {
-  "cSpell.words": ["linkedin", "msapplication", "upath", "wafs", "webp"],
+  "cSpell.words": [
+    "esnext",
+    "linkedin",
+    "msapplication",
+    "upath",
+    "wafs",
+    "webp"
+  ],
   "cSpell.ignoreWords": ["shorthand", "technologies"]
 }

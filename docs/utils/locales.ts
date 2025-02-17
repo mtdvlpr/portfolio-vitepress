@@ -3,7 +3,6 @@ import type {
   LocaleConfig,
   LocaleSpecificConfig,
 } from 'vitepress'
-import type { LocalSearchTranslations } from 'vitepress/types/local-search'
 
 import messages, { enabled, locales as localeOptions } from './../locales'
 import { AUTHOR, GH_AUTHOR_URL, GH_REPO_URL } from './constants'
@@ -69,9 +68,12 @@ export const mapLocales = (): LocaleConfig<DefaultTheme.Config> => {
   return locales
 }
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+const _searchOptions: DefaultTheme.LocalSearchOptions = {}
+
 const mapSearchTranslations = (
   msg: MessageSchema,
-): LocalSearchTranslations => ({
+): typeof _searchOptions.translations => ({
   button: { buttonAriaLabel: msg.search, buttonText: msg.search },
   modal: {
     backButtonTitle: msg.backButtonTitle,
