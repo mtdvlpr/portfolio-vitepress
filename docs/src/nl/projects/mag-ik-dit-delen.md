@@ -1,10 +1,18 @@
 ---
 title: Mag ik Dit Delen?
-description: Mag Ik Dit Delen? is een eenvoudig hulpmiddel om te controleren of je persoonlijke gegevens mag delen met derden volgens de AVG-regels.
+description: A tool used to check whether you are allowed to share personal data with third parties according to GDPR.
 ---
 
 # Mag ik Dit Delen?
 
-Mag Ik Dit Delen? is een eenvoudig hulpmiddel om te controleren of je persoonlijke gegevens mag delen met derden volgens de AVG-regels. Het is gemaakt met React.js, SASS, Node.js en NoSQL.
+Mag Ik Dit Delen? is a tool used to check whether you are allowed to share personal data with third parties according to GDPR. It was developed from scratch by Manoah and his colleague.
 
 [Zie het live project](https://magikditdelen.nl/)
+
+## Manoah's role
+
+Manoah played an essential role in the development of this tool and focused his efforts on the CMS, ensuring all content and clients could be managed from a user-friendly admin portal.
+
+## Skills
+
+Git • HTML5 • CSS 3 • Sass • JavaScript • Node.js • React.js • NoSQL • MongoDB
