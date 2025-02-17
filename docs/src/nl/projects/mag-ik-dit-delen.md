@@ -15,4 +15,4 @@ Manoah speelde een essentiële rol in de ontwikkeling van deze tool en richtte z
 
 ## Skills
 
-Git • HTML5 • CSS 3 • Sass • JavaScript • Node.js • React.js • NoSQL • MongoDB
+Git • HTML5 • CSS3 • Sass • JavaScript • Node.js • React.js • NoSQL • MongoDB
