@@ -203,6 +203,10 @@ export default defineConfig({
       pageData.lastUpdated ? new Date(pageData.lastUpdated) : new Date()
     ).toISOString()
 
+    const title = isEnglish
+      ? messages['en'].title
+      : messages[messageLocale].title
+
     pageData.frontmatter.head ??= []
     pageData.frontmatter.head.push(
       // Site name
@@ -257,10 +261,8 @@ export default defineConfig({
         {
           content:
             pageData.frontmatter.layout === 'home'
-              ? isEnglish
-                ? messages['en'].title
-                : messages[messageLocale].title
-              : `${pageData.title} | M³ docs`,
+              ? title
+              : `${pageData.title} | ${title}`,
           name: 'twitter:title',
         },
       ],
@@ -269,10 +271,8 @@ export default defineConfig({
         {
           content:
             pageData.frontmatter.layout === 'home'
-              ? isEnglish
-                ? messages['en'].title
-                : messages[messageLocale].title
-              : `${pageData.title} | M³ docs`,
+              ? title
+              : `${pageData.title} | ${title}`,
           property: 'og:title',
         },
       ],
