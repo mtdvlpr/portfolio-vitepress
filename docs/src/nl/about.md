@@ -1,19 +1,19 @@
 ---
-title: Over mij
-description: Wat informatie over mij.
+title: About Manoah
+description: Some information about Manoah, his skills and his passion for web development.
 ---
 
 <script setup>
   import { data } from './../../data/about.data.mts'
 </script>
 
-# Over mij
+# About Manoah
 
-Hi! Ik ben een full-stack ontwikkelaar met een passie voor het creëren van dynamische, gebruikersgerichte webervaringen. Sinds ik mijn eerste "Hello, World"-script schreef, ben ik gedreven om complexe problemen op te lossen en intuïtieve oplossingen te bouwen die een echte impact hebben.
+Manoah is a full‑stack developer with a passion for crafting dynamic, user‐focused web experiences. Ever since he wrote his first “Hello, World” script, he has been driven to solve complex problems and build intuitive solutions that make a real impact.
 
-Ik houd van de uitdaging om nieuwe technologieën te leren en mijn vaardigheden aan te scherpen, of ik nu een lastig probleem aan het debuggen ben of de nieuwste webframeworks aan het verkennen ben, ik evolueer constant om voorop te blijven lopen.
+He thrives on the challenge of learning new technologies and refining his skills, whether he is debugging a tricky issue or exploring the latest web frameworks, he is constantly evolving to stay ahead of the curve.
 
-Ik geloof dat elk project een kans is om iets innovatiefs en betekenisvols te creëren. Als je op zoek bent naar een ontwikkelaar die graag uitdagingen aangaat, snel leert en oplossingen levert die echt werken, laten we dan in contact komen en ontdekken hoe we samen iets uitzonderlijks kunnen bouwen.
+He believes that every project is an opportunity to create something innovative and meaningful. If you’re looking for a developer who loves to dive into challenges, learn on the fly, and deliver solutions that truly work, Manoah would be perfect fit.
 
 ## Talen
 
