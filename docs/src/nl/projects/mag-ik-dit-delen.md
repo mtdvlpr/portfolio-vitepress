@@ -1,17 +1,17 @@
 ---
 title: Mag ik Dit Delen?
-description: A tool used to check whether you are allowed to share personal data with third parties according to GDPR.
+description: Een hulpmiddel om te controleren of je persoonlijke gegevens mag delen met derden volgens de AVG-regels.
 ---
 
 # Mag ik Dit Delen?
 
-Mag Ik Dit Delen? is a tool used to check whether you are allowed to share personal data with third parties according to GDPR. It was developed from scratch by Manoah and his colleague.
+Mag Ik Dit Delen? is een hulpmiddel om te controleren of je persoonlijke gegevens mag delen met derden volgens de AVG-regels. Het werd van nul af aan ontwikkeld door Manoah en zijn collega.
 
 [Zie het live project](https://magikditdelen.nl/)
 
-## Manoah's role
+## Manoah's rol
 
-Manoah played an essential role in the development of this tool and focused his efforts on the CMS, ensuring all content and clients could be managed from a user-friendly admin portal.
+Manoah speelde een essentiële rol in de ontwikkeling van deze tool en richtte zijn inspanningen op de CMS, door ervoor te zorgen dat alle inhoud en klanten kunnen worden beheerd vanuit een gebruiksvriendelijk beheerdersportaal.
 
 ## Skills
 
