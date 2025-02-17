@@ -12,7 +12,13 @@ Application Programming Interfaces (APIs) was the fourth course of the minor Web
 For this course, Manoah had to create a server-side rendered Progressive Web App (PWA) that uses several (Web) API's. It should talk to at least one external API for data and at least two Web APIs for functionality. The app should have a main page and a detail page.
 
 - [See the code](https://github.com/mtdvlpr/API-2324)
-- [See the result](https://api-2324.onrender.com/) (may take a while to load since it's hosted on a free server)
+- [See the result](https://api-2324.onrender.com/)
+
+::: info Note
+
+The app is hosted on a free server, so it may take a while to load.
+
+:::
 
 ## Features
 
