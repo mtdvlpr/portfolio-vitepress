@@ -1,45 +1,45 @@
 ---
-title: APIs
-description: A course about building a server-side rendered Progressive Web App (PWA) with several (Web) API's.
+title: API's
+description: Een vak over het bouwen van een server-side gerenderde Progressieve Web App (PWA) met verschillende (Web) API's.
 ---
 
 # Application Programming Interfaces
 
-Application Programming Interfaces (APIs) was the fourth course of the minor Web Design & Development at the HvA. The course was about building a server-side rendered Progressive Web App (PWA) with several (Web) API's.
+Application Programming Interfaces (API's) was het vierde vak van de Web Design & Development minor bij de HvA. Het vak ging over het bouwen van een server-side gerenderde Progressieve Web App (PWA) met verschillende (Web) API's.
 
-## Assignment
+## Opdracht
 
-For this course, Manoah had to create a server-side rendered Progressive Web App (PWA) that uses several (Web) API's. It should talk to at least one external API for data and at least two Web APIs for functionality. The app should have a main page and a detail page.
+Voor dit vak moest Manoah een server-side gerenderde Progressieve Web App (PWA) creëren die verschillende (Web) API's gebruikt. Het moest minstens één externe API gebruiken voor gegevens en minimaal twee Web API's gebruiken voor functionaliteit. De app moest minimaal een hoofdpagina en een detailpagina hebben.
 
-- [See the code](https://github.com/mtdvlpr/API-2324)
-- [See the result](https://api-2324.onrender.com/)
+- [Bekijk de code](https://github.com/mtdvlpr/API-2324)
+- [Zie het resultaat](https://api-2324.onrender.com/)
 
-:::info Note
+:::info Let op
 
-The app is hosted on a free server, so it may take a while to load.
+De app wordt gehost op een gratis server, het kan een tijdje duren om te laden.
 
 :::
 
-## Features
+## Functies
 
-Manoah went above and beyond the requirements and added the following features to his app:
+Manoah ging verder dan de vereisten en voegde de volgende functies toe aan zijn app:
 
-- A homepage with a grid of popular movies and a trending movies section that can be toggled between today and this week
-- A search page to search for movies
-- A detail page for each movie with a trailer
-- A global chatroom
-- Toast notifications for unread chat messages and errors
+- Een overzichtspagina met een raster van populaire films en een populaire filmsectie die kan worden gewisseld tussen vandaag en deze week
+- Een zoekpagina om naar films te zoeken
+- Een detailpagina voor elke film met een trailer
+- Een globale chatroom
+- Meldingen over ongelezen chatberichten en fouten
 
-Manoah implemented the following Web APIs:
+Manoah heeft de volgende Web API's geïmplementeerd:
 
-- **Service Worker API** for PWA support and Push Notifications
-- **Web Share API** for sharing movies
-- **Document Picture-in-Picture API** for the chatroom
-- **Web Speech API** for voice search
-- **Server Sent Events** for the chatroom
-- **View Transition API** for animating the trending and search list change
-- **History API** for intercepting the form submission of trending toggle and search and loading the new list without refreshing the page
-- **Notification API**, **Badging API**, and **Push API** for notifications of unread chat messages
+- **Service Werker API** voor PWA-ondersteuning en Push notificaties
+- **Web Delen API** voor het delen van films
+- **Document Picture-in-Picture API** voor de chatroom
+- **Web Speech API** voor spraakzoekopdrachten
+- **Server Sent Events** voor de chatroom
+- **View Transition API** voor het animeren van de trending en zoek lijst verandering
+- **History API** voor het onderscheppen van het formulier van trending toggle en zoeken en het laden van de nieuwe lijst zonder de pagina te vernieuwen
+- **Notification API**, **Badging API**, en **Push API** voor meldingen van ongelezen chatberichten
 
 ## Skills
 
