@@ -203,34 +203,14 @@ export default defineConfig({
       pageData.lastUpdated ? new Date(pageData.lastUpdated) : new Date()
     ).toISOString()
 
-    const title = isEnglish
-      ? messages['en'].title
-      : messages[messageLocale].title
+    const appTitle = messages[isEnglish ? 'en' : messageLocale].title
 
     pageData.frontmatter.head ??= []
     pageData.frontmatter.head.push(
       // Site name
-      [
-        'meta',
-        {
-          content: messages[isEnglish ? 'en' : messageLocale].title,
-          name: 'application-name',
-        },
-      ],
-      [
-        'meta',
-        {
-          content: messages[isEnglish ? 'en' : messageLocale].title,
-          name: 'apple-mobile-web-app-title',
-        },
-      ],
-      [
-        'meta',
-        {
-          content: messages[isEnglish ? 'en' : messageLocale].title,
-          property: 'og:site_name',
-        },
-      ],
+      ['meta', { content: appTitle, name: 'application-name' }],
+      ['meta', { content: appTitle, name: 'apple-mobile-web-app-title' }],
+      ['meta', { content: appTitle, property: 'og:site_name' }],
 
       // Page url
       ['link', { href: canonicalUrl, rel: 'canonical' }],
@@ -261,8 +241,8 @@ export default defineConfig({
         {
           content:
             pageData.frontmatter.layout === 'home'
-              ? title
-              : `${pageData.title} | ${title}`,
+              ? appTitle
+              : `${pageData.title} | ${appTitle}`,
           name: 'twitter:title',
         },
       ],
@@ -271,8 +251,8 @@ export default defineConfig({
         {
           content:
             pageData.frontmatter.layout === 'home'
-              ? title
-              : `${pageData.title} | ${title}`,
+              ? appTitle
+              : `${pageData.title} | ${appTitle}`,
           property: 'og:title',
         },
       ],
