@@ -1,19 +1,19 @@
 ---
 title: Portfolio
-description: A collection of school, work, and personal projects Manoah has worked on over the years.
+description: Een collectie van school-, werk- en persoonlijke projecten waar Manoah over de jaren aan gewerkt heeft.
 ---
 
 # Portfolio
 
-Manoah has worked on a variety of projects, from school and work projects to personal projects. For a more detailed overview of his work and experience, you can check out his [GitHub profile](https://github.com/mtdvlpr), his [LinkedIn profile](https://www.linkedin.com/in/manoaht/) or his [resume](https://rxresu.me/manoah/resume).
+Manoah heeft aan verschillende projecten gewerkt, van school- en werkprojecten tot persoonlijke projecten. Voor een gedetailleerder overzicht van zijn werk en ervaring kan je zijn [GitHub profiel](https://github.com/mtdvlpr), zijn [LinkedIn profiel](https://www.linkedin.com/in/manoaht/) of zijn [CV](https://rxresu.me/manoah/cv) bekijken.
 
 ## School projecten
 
-Manoah has worked on a variety of projects during his time at school.
+Manoah heeft tijdens zijn schooltijd aan diverse projecten gewerkt.
 
 ### Hogeschool van Amsterdam (HvA)
 
-During his minor Web Design & Development at the HvA, he had several assignments which involved creating web apps. Hier zijn er enkelen:
+Tijdens zijn Web Design & Development minor bij de HvA had hij verschillende opdrachten die betrekking hadden op het maken van web apps. Hier zijn er enkelen:
 
 - [Web App from Scratch](/projects/hva/wafs)
 - [CSS to the Rescue](/projects/hva/css-to-the-rescue)
@@ -22,6 +22,6 @@ During his minor Web Design & Development at the HvA, he had several assignments
 
 ## Werk projecten
 
-Manoah has worked on many projects during his career. Many of them are confidential, but here are some that are not:
+Manoah heeft tijdens zijn carrière aan veel projecten gewerkt. Veel ervan zijn vertrouwelijk, maar hier zijn enkelen die niet vertrouwelijk zijn:
 
 - [Mag ik dit delen?](/projects/mag-ik-dit-delen)
