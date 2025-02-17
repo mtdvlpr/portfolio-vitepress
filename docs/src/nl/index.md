@@ -9,10 +9,10 @@ hero:
     alt: Manoah's profielfoto
   actions:
     - theme: brand
-      text: Mijn portfolio
+      text: Manoah's portfolio
       link: /nl/portfolio
     - theme: alt
-      text: Over mij
+      text: About Manoah
       link: /nl/about
 features:
   - icon: ⚡️
