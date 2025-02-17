@@ -18,6 +18,7 @@ During his minor Web Design & Development at the HvA, he had several assignments
 - [Web App from Scratch](/projects/hva/wafs)
 - [CSS to the Rescue](/projects/hva/css-to-the-rescue)
 - [Browser Technology](/projects/hva/browser-technology)
+- [Application Programming Interfaces](/projects/hva/apis)
 - [HvA Hackathon](/projects/hva/hva-hackathon)
 
 ## Work projects
