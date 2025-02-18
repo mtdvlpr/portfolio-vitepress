@@ -13,3 +13,7 @@ For this course, Manoah had to create a digital version of a tax form using vani
 
 - [See the code](https://github.com/mtdvlpr/bt-tax-form)
 - [See the result](https://mtdvlpr.github.io/bt-tax-form/)
+
+## Skills
+
+Git • HTML5 • CSS3 • JavaScript • UI • UX • Accessibility (a11y)

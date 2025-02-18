@@ -43,4 +43,4 @@ Manoah implemented the following Web APIs:
 
 ## Skills
 
-Git • HTML5 • CSS3 • Sass • JavaScript • Node.js • Express.js • NoSQL • MongoDB
+Git • HTML5 • CSS3 • SCSS • JavaScript • TypeScript • Node.js • Express.js • NoSQL • MongoDB • UI • UX

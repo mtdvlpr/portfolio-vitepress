@@ -24,3 +24,7 @@ For the team assignment, Manoah had to work together with a team to create a web
 
 - [See the code](https://github.com/mtdvlpr/web-app-from-scratch-2324-team)
 - [See the result](https://mtdvlpr.github.io/web-app-from-scratch-2324-team/)
+
+## Skills
+
+Git • HTML5 • CSS3 • JavaScript • UI • UX • Accessibility (a11y)
