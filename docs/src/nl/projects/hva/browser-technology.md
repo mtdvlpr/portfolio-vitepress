@@ -13,3 +13,7 @@ Voor dit vak moest Manoah een digitale versie van een belastingformulier maken m
 
 - [Bekijk de code](https://github.com/mtdvlpr/bt-tax-form)
 - [Zie het resultaat](https://mtdvlpr.github.io/bt-tax-form/)
+
+## Skills
+
+Git • HTML5 • CSS3 • JavaScript • UI • UX • Accessibility (a11y)
