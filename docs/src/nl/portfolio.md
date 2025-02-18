@@ -18,6 +18,7 @@ Tijdens zijn Web Design & Development minor bij de HvA had hij verschillende opd
 - [Web App from Scratch](/projects/hva/wafs)
 - [CSS to the Rescue](/projects/hva/css-to-the-rescue)
 - [Browser Technology](/projects/hva/browser-technology)
+- [Application Programming Interfaces](/projects/hva/apis)
 - [HvA Hackathon](/projects/hva/hva-hackathon)
 
 ## Werk projecten
