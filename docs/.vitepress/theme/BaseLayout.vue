@@ -1,19 +1,44 @@
 <script setup lang="ts">
 import { inBrowser, useData, useRouter } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
-import { onMounted, watch } from 'vue'
+import { onMounted, watchEffect } from 'vue'
 
 import { enabled, type LanguageValue } from './../../locales'
 
 const { lang } = useData()
-watch(lang, (val) => {
-  if (inBrowser && 'localStorage' in window) {
-    window.localStorage.setItem('locale', val)
+
+function getCookie(cname: string) {
+  const name = cname + '='
+  const decodedCookie = decodeURIComponent(document.cookie)
+  const ca = decodedCookie.split(';')
+  // eslint-disable-next-line @typescript-eslint/prefer-for-of
+  for (let i = 0; i < ca.length; i++) {
+    let c = ca[i]
+    while (c.charAt(0) == ' ') {
+      c = c.substring(1)
+    }
+    if (c.indexOf(name) == 0) {
+      return c.substring(name.length, c.length)
+    }
+  }
+  return ''
+}
+
+function setCookie(cname: string, val: string, exDays: number) {
+  const d = new Date()
+  d.setTime(d.getTime() + exDays * 24 * 60 * 60 * 1000)
+  const expires = 'expires=' + d.toUTCString()
+  document.cookie = cname + '=' + val + ';' + expires + ';path=/'
+}
+
+watchEffect(() => {
+  if (inBrowser && enabled.includes(lang.value as LanguageValue)) {
+    setCookie('nf_lang', lang.value, 365)
   }
 })
 
 onMounted(() => {
-  if (inBrowser) {
+  if (inBrowser && lang.value === 'root') {
     const systemLocales =
       'navigator' in window ? window.navigator.languages : []
 
@@ -28,20 +53,13 @@ onMounted(() => {
       ? systemMatch
       : (systemMatch.split('-')[0] as LanguageValue)
 
-    const preferredLocale =
-      ('localStorage' in window
-        ? window.localStorage.getItem('locale')
-        : null) || systemLocale
+    const preferredLocale = getCookie('nf_lang') || systemLocale
 
-    if (preferredLocale !== lang.value) {
-      const path = useRouter().route.path
-      if (preferredLocale !== 'en' && lang.value !== 'en') {
-        useRouter().go(path.replace(`/${lang.value}/`, `/${preferredLocale}/`))
-      } else if (preferredLocale === 'en') {
-        useRouter().go(path.replace(`/${lang.value}/`, '/'))
-      } else {
-        useRouter().go(path.replace('/', `/${preferredLocale}/`))
-      }
+    const path = useRouter().route.path
+    if (enabled.includes(preferredLocale as LanguageValue)) {
+      useRouter().go(path.replace('/', `/${preferredLocale}/`))
+    } else {
+      useRouter().go(path.replace('/', '/en/'))
     }
   }
 })

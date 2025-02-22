@@ -15,14 +15,14 @@ Manoah has worked on a variety of projects during his time at school.
 
 During his minor Web Design & Development at the HvA, he had several assignments which involved creating web apps. Here are some of them:
 
-- [Web App from Scratch](/projects/hva/wafs)
-- [CSS to the Rescue](/projects/hva/css-to-the-rescue)
-- [Browser Technology](/projects/hva/browser-technology)
-- [Application Programming Interfaces](/projects/hva/apis)
-- [HvA Hackathon](/projects/hva/hva-hackathon)
+- [Web App from Scratch](/en/projects/hva/wafs)
+- [CSS to the Rescue](/en/projects/hva/css-to-the-rescue)
+- [Browser Technology](/en/projects/hva/browser-technology)
+- [Application Programming Interfaces](/en/projects/hva/apis)
+- [HvA Hackathon](/en/projects/hva/hva-hackathon)
 
 ## Work projects
 
 Manoah has worked on many projects during his career. Many of them are confidential, but here are some that are not:
 
-- [Mag ik dit delen?](/projects/mag-ik-dit-delen)
+- [Mag ik dit delen?](/en/projects/mag-ik-dit-delen)

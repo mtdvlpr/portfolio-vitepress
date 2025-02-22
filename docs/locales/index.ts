@@ -3,7 +3,7 @@ import nl from './nl.json'
 
 export type LanguageValue = 'en' | 'nl'
 
-export const enabled: LanguageValue[] = ['nl']
+export const enabled: LanguageValue[] = ['nl', 'en']
 
 export const locales: {
   englishName: string
