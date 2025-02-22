@@ -11,7 +11,9 @@ function getCookie(cname: string) {
   const name = cname + '='
   const decodedCookie = decodeURIComponent(document.cookie)
   const ca = decodedCookie.split(';')
-  for (const c of ca) {
+  // eslint-disable-next-line @typescript-eslint/prefer-for-of
+  for (let i = 0; i < ca.length; i++) {
+    let c = ca[i]
     while (c.charAt(0) == ' ') {
       c = c.substring(1)
     }
@@ -30,7 +32,7 @@ function setCookie(cname: string, val: string, exDays: number) {
 }
 
 watchEffect(() => {
-  if (inBrowser && enabled.includes(lang.value)) {
+  if (inBrowser && enabled.includes(lang.value as LanguageValue)) {
     setCookie('nf_lang', lang.value, 365)
   }
 })
@@ -54,7 +56,7 @@ onMounted(() => {
     const preferredLocale = getCookie('nf_lang') || systemLocale
 
     const path = useRouter().route.path
-    if (enabled.includes(preferredLocale)) {
+    if (enabled.includes(preferredLocale as LanguageValue)) {
       useRouter().go(path.replace('/', `/${preferredLocale}/`))
     } else {
       useRouter().go(path.replace('/', '/en/'))
