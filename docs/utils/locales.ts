@@ -171,18 +171,18 @@ export const mapThemeConfig = (
     },
     { link: link(locale, 'portfolio'), text: msg.portfolio },
     {
-      base: link(locale, 'projects'),
+      base: link(locale, 'projects/'),
       collapsed: false,
       items: [
-        { link: '/mag-ik-dit-delen', text: 'Mag Ik Dit Delen?' },
+        { link: 'mag-ik-dit-delen', text: 'Mag Ik Dit Delen?' },
         {
           base: link(locale, 'projects/hva/'),
           items: [
-            { link: '/wafs', text: 'Web App From Scratch' },
-            { link: '/css-to-the-rescue', text: 'CSS to the Rescue' },
-            { link: '/browser-technology', text: 'Browser Technology' },
-            { link: '/apis', text: 'APIs' },
-            { link: '/hva-hackathon', text: 'HvA Hackathon' },
+            { link: 'wafs', text: 'Web App From Scratch' },
+            { link: 'css-to-the-rescue', text: 'CSS to the Rescue' },
+            { link: 'browser-technology', text: 'Browser Technology' },
+            { link: 'apis', text: 'APIs' },
+            { link: 'hva-hackathon', text: 'HvA Hackathon' },
           ],
           text: 'Minor Web Design & Development',
         },
