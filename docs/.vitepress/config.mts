@@ -13,7 +13,7 @@ import { mapLocales, mapSearch } from './../utils/locales'
 
 const base = `/`
 const srcExclude = locales
-  .filter((l) => l.value !== 'en' && !enabled.includes(l.value))
+  .filter((l) => !enabled.includes(l.value))
   .map((l) => `**/${camelToKebabCase(l.value)}/*.md`)
 
 // https://vitepress.dev/reference/site-config
@@ -143,6 +143,7 @@ export default defineConfig({
     ['meta', { content: '512', property: 'og:image:height' }],
     ['meta', { content: 'Portfolio logo', property: 'og:image:alt' }],
   ],
+  lang: 'root',
   lastUpdated: true,
   locales: mapLocales(),
   markdown: {
@@ -166,7 +167,6 @@ export default defineConfig({
     },
     image: { lazyLoading: true },
   },
-  rewrites: { 'en/:rest*': ':rest*' },
   sitemap: {
     hostname: CANONICAL_URL,
   },
@@ -183,10 +183,8 @@ export default defineConfig({
       .replace(/\.md$/, '')
 
     const pageLang = pageData.relativePath.split('/')[0]
-    const messageLocale = kebabToCamelCase(pageLang) as LanguageValue
-    const isEnglish = !enabled.includes(
-      pageData.relativePath.split('/')[0] as LanguageValue,
-    )
+    let messageLocale = kebabToCamelCase(pageLang) as LanguageValue
+    if (!enabled.includes(messageLocale)) messageLocale = 'en'
 
     let createdDate = ''
     try {
@@ -203,7 +201,7 @@ export default defineConfig({
       pageData.lastUpdated ? new Date(pageData.lastUpdated) : new Date()
     ).toISOString()
 
-    const appTitle = messages[isEnglish ? 'en' : messageLocale].title
+    const appTitle = messages[messageLocale].title
 
     pageData.frontmatter.head ??= []
     pageData.frontmatter.head.push(
@@ -261,9 +259,7 @@ export default defineConfig({
       [
         'link',
         {
-          href: isEnglish
-            ? canonicalUrl
-            : canonicalUrl.replace(`/${pageLang}/`, '/'),
+          href: canonicalUrl.replace(`/${pageLang}/`, '/'),
           hreflang: 'x-default',
           rel: 'alternate',
         },
@@ -271,16 +267,13 @@ export default defineConfig({
 
       // Available page locales
       ...locales
-        .filter((l) => l.value === 'en' || enabled.includes(l.value))
+        .filter((l) => enabled.includes(l.value))
         .map((l): [string, Record<string, string>] => {
           const lang = camelToKebabCase(l.value)
           return [
             'link',
             {
-              href: (!isEnglish
-                ? canonicalUrl.replace(`/${pageLang}/`, `/${lang}/`)
-                : `${CANONICAL_URL}${lang}/${pageData.relativePath.replace('index.md', '').replace('.md', '')}`
-              ).replace('/en/', '/'),
+              href: canonicalUrl.replace(`/${pageLang}/`, `/${lang}/`),
               hreflang: lang,
               rel: 'alternate',
             },

@@ -53,7 +53,7 @@ describe('Locales', () => {
     localeUrls.flat().forEach((localeUrl) => {
       const { link, linkPage, locale } = localeUrl
       if (link?.startsWith('https://')) return
-      expect(link).toBe(`${locale === 'en' ? '' : `/${locale}`}/${linkPage}`)
+      expect(link).toBe(`/${locale}/${linkPage}`)
     })
   })
 

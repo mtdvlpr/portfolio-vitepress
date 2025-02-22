@@ -11,10 +11,10 @@ hero:
   actions:
     - theme: brand
       text: Manoah's portfolio
-      link: /portfolio
+      link: /en/portfolio
     - theme: alt
       text: About Manoah
-      link: /about
+      link: /en/about
 
 features:
   - icon: ⚡️
