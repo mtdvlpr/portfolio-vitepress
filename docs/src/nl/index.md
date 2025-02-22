@@ -10,10 +10,10 @@ hero:
   actions:
     - theme: brand
       text: Manoah's portfolio
-      link: /nl/portfolio
+      link: /en/portfolio
     - theme: alt
       text: Over Manoah
-      link: /nl/about
+      link: /en/about
 features:
   - icon: ⚡️
     title: Front-end stacks
