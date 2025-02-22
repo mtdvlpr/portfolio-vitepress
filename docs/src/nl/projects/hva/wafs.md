@@ -24,3 +24,7 @@ Voor de groepsopdracht moest Manoah samenwerken met een team om een webapp vanaf
 
 - [Bekijk de code](https://github.com/mtdvlpr/web-app-from-scratch-2324-team)
 - [Zie het resultaat](https://mtdvlpr.github.io/web-app-from-scratch-2324-team/)
+
+## Skills
+
+Git • HTML5 • CSS3 • JavaScript • UI • UX • Accessibility (a11y)

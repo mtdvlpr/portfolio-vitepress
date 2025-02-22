@@ -24,3 +24,7 @@ Voor de groepsopdracht, moest Manoah en zijn team samenwerken om te experimenter
 
 - [Bekijk de code](https://github.com/mtdvlpr/CSSttR-team-assignment)
 - [Zie het resultaat](https://mtdvlpr.github.io/CSSttR-team-assignment/manoah.html)
+
+## Skills
+
+Git • HTML5 • CSS3 • UI • UX

@@ -13,3 +13,7 @@ Voor deze hackathon moesten Manoah en zijn team een unieke, toegankelijke en res
 
 - [Bekijk de code](https://github.com/JopMolenaar/css-day-ta-JJJM)
 - [Zie het resultaat](https://jopmolenaar.github.io/css-day-ta-JJJM/)
+
+## Skills
+
+Git • HTML5 • CSS3 • JavaScript • UI • UX • Accessibility (a11y)
