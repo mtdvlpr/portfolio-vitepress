@@ -13,7 +13,7 @@ watch(lang, (val) => {
 })
 
 onMounted(() => {
-  if (inBrowser) {
+  if (inBrowser && lang.value === 'en') {
     const systemLocales =
       'navigator' in window ? window.navigator.languages : []
 
