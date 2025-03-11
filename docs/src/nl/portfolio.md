@@ -26,3 +26,9 @@ Tijdens zijn Web Design & Development minor bij de HvA had hij verschillende opd
 Manoah heeft tijdens zijn carrière aan veel projecten gewerkt. Veel ervan zijn vertrouwelijk, maar hier zijn enkele die niet vertrouwelijk zijn:
 
 - [Mag ik dit delen?](/nl/projects/mag-ik-dit-delen)
+
+## Personal projects
+
+Manoah has also worked on a variety of personal projects. Here are some of them:
+
+- [Meeting Media Manager](/en/projects/m3)
