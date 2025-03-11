@@ -27,8 +27,8 @@ Manoah heeft tijdens zijn carrière aan veel projecten gewerkt. Veel ervan zijn 
 
 - [Mag ik dit delen?](/nl/projects/mag-ik-dit-delen)
 
-## Personal projects
+## Persoonlijke projecten
 
-Manoah has also worked on a variety of personal projects. Here are some of them:
+Manoah heeft ook gewerkt aan diverse persoonlijke projecten. Hier zijn er enkelen:
 
-- [Meeting Media Manager](/en/projects/m3)
+- [Meeting Media Manager](/nl/projects/m3)
