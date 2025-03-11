@@ -180,6 +180,7 @@ export const mapThemeConfig = (
           ],
           text: 'Minor Web Design & Development',
         },
+        { link: 'm3', text: 'Meeting Media Manager' },
       ],
       text: msg.projects,
     },

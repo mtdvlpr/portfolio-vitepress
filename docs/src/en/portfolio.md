@@ -26,3 +26,9 @@ During his minor Web Design & Development at the HvA, he had several assignments
 Manoah has worked on many projects during his career. Many of them are confidential, but here are some that are not:
 
 - [Mag ik dit delen?](/en/projects/mag-ik-dit-delen)
+
+## Personal projects
+
+Manoah has also worked on a variety of personal projects. Here are some of them:
+
+- [Meeting Media Manager](/en/projects/m3)
