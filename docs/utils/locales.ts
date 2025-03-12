@@ -134,7 +134,7 @@ export const mapThemeConfig = (
   darkModeSwitchTitle: msg.darkModeSwitchTitle,
   docFooter: { next: msg.docFooterNext, prev: msg.docFooterPrev },
   editLink: {
-    pattern: `${GH_REPO_URL}/edit/main/src/:path`,
+    pattern: `${GH_REPO_URL}/edit/main/docs/src/:path`,
     text: msg.editLink,
   },
   footer: {
