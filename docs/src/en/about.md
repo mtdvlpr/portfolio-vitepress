@@ -13,7 +13,7 @@ Manoah is a full‑stack developer with a passion for crafting dynamic, user‐f
 
 He thrives on the challenge of learning new technologies and refining his skills, whether he is debugging a tricky issue or exploring the latest web frameworks, he is constantly evolving to stay ahead of the curve.
 
-He believes that every project is an opportunity to create something innovative and meaningful. If you’re looking for a developer who loves to dive into challenges, learn on the fly, and deliver solutions that truly work, Manoah would be perfect fit.
+He believes that every project is an opportunity to create something innovative and meaningful. If you’re looking for a developer who loves to dive into challenges, learn on the fly, and deliver solutions that truly work, Manoah would be a perfect fit.
 
 ## Languages
 
