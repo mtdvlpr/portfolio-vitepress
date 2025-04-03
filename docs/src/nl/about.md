@@ -13,7 +13,7 @@ Manoah is een full-stack ontwikkelaar met een passie voor het creëren van dynam
 
 Hij houdt van de uitdaging om nieuwe technologieën te leren en zijn vaardigheden aan te scherpen, of hij nu een lastig probleem aan het debuggen ben of de nieuwste webframeworks aan het verkennen ben, hij evolueert constant om voorop te blijven lopen.
 
-Hij gelooft dat elk project een kans is om iets innovatiefs en betekenisvols te creëren. If you’re looking for a developer who loves to dive into challenges, learn on the fly, and deliver solutions that truly work, Manoah would be a perfect fit.
+Hij gelooft dat elk project een kans is om iets innovatiefs en betekenisvols te creëren. Als je op zoek bent naar een ontwikkelaar die graag uitdagingen aangaat, snel leert en oplossingen levert die echt werken, Manoah zou perfect passen.
 
 ## Talen
 
