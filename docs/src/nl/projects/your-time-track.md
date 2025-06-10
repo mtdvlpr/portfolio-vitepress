@@ -1,23 +1,23 @@
 ---
 title: YourTimeTrack
-description: A time registration system that helps users track the time spent on various tasks and projects.
+description: Een tijdregistratiesysteem dat gebruikers helpt bij het bijhouden van de tijd besteed aan verschillende taken en projecten.
 ---
 
 # YourTimeTrack
 
-YourTimeTrack is a time registration system that helps users track the time spent on various tasks and projects. It offers features such as project management, time tracking, and reporting.
+YourTimeTrack is een tijdregistratiesysteem dat gebruikers helpt bij het bijhouden van de tijd die besteed wordt aan verschillende taken en projecten. Het biedt functies zoals projectbeheer, tijdregistratie en rapportage.
 
-- [See the code](https://github.com/YournameITManoah/time-tool)
-- [See the live demo](https://timetool.slds.nl/)
+- [Bekijk de code](https://github.com/YournameITManoah/time-tool)
+- [Zie de live demo](https://timetool.slds.nl/)
 
-## Manoah's role
+## Manoah's rol
 
-Manoah worked individually on this project and built a fully-featured time registration system from scratch. He performed several large and complex tasks, including:
+Manoah heeft individueel aan dit project gewerkt en heeft een uitgebreid tijdregistratiesysteem vanaf het begin gebouwd. Hij heeft verschillende grote en complexe taken vervuld, waaronder:
 
-- Implementing internationalization (i18n) to improve accessibility.
-- Creating a complete admin panel.
-- Creating a CI/CD pipeline with automated unit tests, which reduced release failures and prevented regressions.
-- Creating an API for external integration.
+- Internationalisatie (i18n) implementeren om de toegankelijkheid te verbeteren.
+- Een compleet admin-panel creëren.
+- Een CI/CD-pipeline met geautomatiseerde unit tests maken, waardoor releasefouten werden verminderd en regressies werden voorkomen.
+- Een API voor externe integratie ontwikkelen.
 
 ## Skills
 
