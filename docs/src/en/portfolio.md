@@ -9,7 +9,9 @@ Manoah has worked on a variety of projects, from school and work projects to per
 
 ## School projects
 
-Manoah has worked on a variety of projects during his time at school.
+Manoah has worked on a variety of projects during his time at school. Here are some of the most notable ones:
+
+- [YourTimeTrack](/en/projects/your-time-track)
 
 ### Hogeschool van Amsterdam (HvA)
 
@@ -23,7 +25,7 @@ During his minor Web Design & Development at the HvA, he had several assignments
 
 ## Work projects
 
-Manoah has worked on many projects during his career. Many of them are confidential, but here are some that are not:
+Manoah has worked on many projects throughout his career. Many of them are confidential, but here are some that are not:
 
 - [Mag ik dit delen?](/en/projects/mag-ik-dit-delen)
 
