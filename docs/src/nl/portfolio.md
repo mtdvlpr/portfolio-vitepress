@@ -9,7 +9,7 @@ Manoah heeft aan verschillende projecten gewerkt, van school- en werkprojecten t
 
 ## School projecten
 
-Manoah has worked on a variety of projects during his time at school. Here are some of the most notable ones:
+Manoah heeft tijdens zijn schooltijd aan diverse projecten gewerkt. Hier zijn enkele van de meest opvallende:
 
 - [YourTimeTrack](/en/projects/your-time-track)
 
@@ -25,7 +25,7 @@ Tijdens zijn Web Design & Development minor bij de HvA had hij verschillende opd
 
 ## Werk projecten
 
-Manoah has worked on many projects throughout his career. Veel ervan zijn vertrouwelijk, maar hier zijn enkele die niet vertrouwelijk zijn:
+Manoah heeft tijdens zijn carrière aan veel projecten gewerkt. Veel ervan zijn vertrouwelijk, maar hier zijn enkele die niet vertrouwelijk zijn:
 
 - [Mag ik dit delen?](/nl/projects/mag-ik-dit-delen)
 
