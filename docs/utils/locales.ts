@@ -181,6 +181,7 @@ export const mapThemeConfig = (
           text: 'Minor Web Design & Development',
         },
         { link: 'm3', text: 'Meeting Media Manager' },
+        { link: 'your-time-track', text: 'YourTimeTrack' },
       ],
       text: msg.projects,
     },
