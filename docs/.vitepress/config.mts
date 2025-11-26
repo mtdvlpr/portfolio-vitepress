@@ -122,6 +122,20 @@ export default defineConfig({
     ['meta', { content: '1000', property: 'og:image:height' }],
     ['meta', { content: 'Portfolio cover', property: 'og:image:alt' }],
 
+    // Portfolio og image
+    [
+      'meta',
+      { content: `${CANONICAL_URL}portfolio-og.webp`, property: 'og:image' },
+    ],
+    ['meta', { content: 'image/webp', property: 'og:image:type' }],
+    [
+      'meta',
+      { content: `${CANONICAL_URL}portfolio-og.png`, property: 'og:image' },
+    ],
+    ['meta', { content: 'image/png', property: 'og:image:type' }],
+    ['meta', { content: '1280', property: 'og:image:width' }],
+    ['meta', { content: '640', property: 'og:image:height' }],
+
     // Logo og image
     [
       'meta',
