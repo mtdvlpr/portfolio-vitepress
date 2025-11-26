@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: Hi! I'm Manoah👋
-  text: A full-stack developer
+  text: A full-stack software engineer
   tagline:
   image:
     src: /me.webp

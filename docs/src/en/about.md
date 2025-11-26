@@ -9,7 +9,7 @@ description: Some information about Manoah, his skills and his passion for web d
 
 # About Manoah
 
-Manoah is a full‑stack developer with a passion for crafting dynamic, user‐focused web experiences. Ever since he wrote his first “Hello, World” script, he has been driven to solve complex problems and build intuitive solutions that make a real impact.
+Manoah is a full‑stack software engineer with a passion for crafting dynamic, user‐focused web experiences. Ever since he wrote his first “Hello, World” script, he has been driven to solve complex problems and build intuitive solutions that make a real impact.
 
 He thrives on the challenge of learning new technologies and refining his skills, whether he is debugging a tricky issue or exploring the latest web frameworks, he is constantly evolving to stay ahead of the curve.
 
